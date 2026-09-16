@@ -1,0 +1,1124 @@
+{
+  "communities": {
+    "0": [
+      "app_http_controllers_usercontroller",
+      "app_http_controllers_usercontroller_usercontroller",
+      "app_http_controllers_usercontroller_usercontroller_create",
+      "app_http_controllers_usercontroller_usercontroller_destroy",
+      "app_http_controllers_usercontroller_usercontroller_edit",
+      "app_http_controllers_usercontroller_usercontroller_index",
+      "app_http_controllers_usercontroller_usercontroller_store",
+      "app_http_controllers_usercontroller_usercontroller_update",
+      "app_models_user",
+      "app_models_user_user",
+      "app_models_user_user_casts",
+      "config_auth",
+      "illuminate_database_eloquent_factories_hasfactory",
+      "illuminate_foundation_auth_user",
+      "illuminate_foundation_testing_refreshdatabase",
+      "illuminate_foundation_testing_testcase",
+      "illuminate_notifications_notifiable",
+      "spatie_permission_traits_hasroles",
+      "tests_feature_auth_authenticationtest",
+      "tests_feature_auth_authenticationtest_authenticationtest",
+      "tests_feature_auth_authenticationtest_authenticationtest_test_login_screen_can_be_rendered",
+      "tests_feature_auth_authenticationtest_authenticationtest_test_users_can_authenticate_using_email_in_login_field",
+      "tests_feature_auth_authenticationtest_authenticationtest_test_users_can_authenticate_using_the_login_screen",
+      "tests_feature_auth_authenticationtest_authenticationtest_test_users_can_authenticate_using_username",
+      "tests_feature_auth_authenticationtest_authenticationtest_test_users_can_logout",
+      "tests_feature_auth_authenticationtest_authenticationtest_test_users_can_not_authenticate_with_invalid_password",
+      "tests_feature_auth_emailverificationtest",
+      "tests_feature_auth_emailverificationtest_emailverificationtest",
+      "tests_feature_auth_emailverificationtest_emailverificationtest_test_email_can_be_verified",
+      "tests_feature_auth_emailverificationtest_emailverificationtest_test_email_is_not_verified_with_invalid_hash",
+      "tests_feature_auth_emailverificationtest_emailverificationtest_test_email_verification_screen_can_be_rendered",
+      "tests_feature_auth_passwordconfirmationtest",
+      "tests_feature_auth_passwordconfirmationtest_passwordconfirmationtest",
+      "tests_feature_auth_passwordconfirmationtest_passwordconfirmationtest_test_confirm_password_screen_can_be_rendered",
+      "tests_feature_auth_passwordconfirmationtest_passwordconfirmationtest_test_password_can_be_confirmed",
+      "tests_feature_auth_passwordconfirmationtest_passwordconfirmationtest_test_password_is_not_confirmed_with_invalid_password",
+      "tests_feature_auth_passwordresettest",
+      "tests_feature_auth_passwordresettest_passwordresettest",
+      "tests_feature_auth_passwordresettest_passwordresettest_test_password_can_be_reset_with_valid_token",
+      "tests_feature_auth_passwordresettest_passwordresettest_test_reset_password_link_can_be_requested",
+      "tests_feature_auth_passwordresettest_passwordresettest_test_reset_password_link_screen_can_be_rendered",
+      "tests_feature_auth_passwordresettest_passwordresettest_test_reset_password_screen_can_be_rendered",
+      "tests_feature_auth_passwordupdatetest",
+      "tests_feature_auth_passwordupdatetest_passwordupdatetest",
+      "tests_feature_auth_passwordupdatetest_passwordupdatetest_test_correct_password_must_be_provided_to_update_password",
+      "tests_feature_auth_passwordupdatetest_passwordupdatetest_test_password_can_be_updated",
+      "tests_feature_auth_registrationtest",
+      "tests_feature_auth_registrationtest_registrationtest",
+      "tests_feature_auth_registrationtest_registrationtest_test_new_users_can_register",
+      "tests_feature_auth_registrationtest_registrationtest_test_registration_screen_can_be_rendered",
+      "tests_feature_exampletest",
+      "tests_feature_exampletest_exampletest",
+      "tests_feature_exampletest_exampletest_test_the_application_returns_a_successful_response",
+      "tests_feature_profiletest",
+      "tests_feature_profiletest_profiletest",
+      "tests_feature_profiletest_profiletest_test_correct_password_must_be_provided_to_delete_account",
+      "tests_feature_profiletest_profiletest_test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged",
+      "tests_feature_profiletest_profiletest_test_profile_information_can_be_updated",
+      "tests_feature_profiletest_profiletest_test_profile_page_is_displayed",
+      "tests_feature_profiletest_profiletest_test_user_can_delete_their_account",
+      "tests_testcase_testcase"
+    ],
+    "1": [
+      "app_http_controllers_auth_authenticatedsessioncontroller",
+      "app_http_controllers_auth_authenticatedsessioncontroller_authenticatedsessioncontroller",
+      "app_http_controllers_auth_authenticatedsessioncontroller_authenticatedsessioncontroller_create",
+      "app_http_controllers_auth_authenticatedsessioncontroller_authenticatedsessioncontroller_destroy",
+      "app_http_controllers_auth_authenticatedsessioncontroller_authenticatedsessioncontroller_store",
+      "app_http_controllers_auth_confirmablepasswordcontroller",
+      "app_http_controllers_auth_confirmablepasswordcontroller_confirmablepasswordcontroller",
+      "app_http_controllers_auth_confirmablepasswordcontroller_confirmablepasswordcontroller_show",
+      "app_http_controllers_auth_confirmablepasswordcontroller_confirmablepasswordcontroller_store",
+      "app_http_controllers_auth_emailverificationnotificationcontroller",
+      "app_http_controllers_auth_emailverificationnotificationcontroller_emailverificationnotificationcontroller",
+      "app_http_controllers_auth_emailverificationnotificationcontroller_emailverificationnotificationcontroller_store",
+      "app_http_controllers_auth_emailverificationpromptcontroller",
+      "app_http_controllers_auth_emailverificationpromptcontroller_emailverificationpromptcontroller",
+      "app_http_controllers_auth_emailverificationpromptcontroller_emailverificationpromptcontroller_invoke",
+      "app_http_controllers_auth_newpasswordcontroller",
+      "app_http_controllers_auth_newpasswordcontroller_newpasswordcontroller",
+      "app_http_controllers_auth_newpasswordcontroller_newpasswordcontroller_create",
+      "app_http_controllers_auth_newpasswordcontroller_newpasswordcontroller_store",
+      "app_http_controllers_auth_passwordcontroller",
+      "app_http_controllers_auth_passwordcontroller_passwordcontroller",
+      "app_http_controllers_auth_passwordcontroller_passwordcontroller_update",
+      "app_http_controllers_auth_passwordresetlinkcontroller",
+      "app_http_controllers_auth_passwordresetlinkcontroller_passwordresetlinkcontroller",
+      "app_http_controllers_auth_passwordresetlinkcontroller_passwordresetlinkcontroller_create",
+      "app_http_controllers_auth_passwordresetlinkcontroller_passwordresetlinkcontroller_store",
+      "app_http_controllers_auth_registeredusercontroller",
+      "app_http_controllers_auth_registeredusercontroller_registeredusercontroller",
+      "app_http_controllers_auth_registeredusercontroller_registeredusercontroller_create",
+      "app_http_controllers_auth_registeredusercontroller_registeredusercontroller_store",
+      "app_http_controllers_auth_verifyemailcontroller",
+      "app_http_controllers_auth_verifyemailcontroller_verifyemailcontroller",
+      "app_http_controllers_auth_verifyemailcontroller_verifyemailcontroller_invoke",
+      "app_http_controllers_controller",
+      "app_http_controllers_controller_controller",
+      "app_http_controllers_laporancontroller_laporancontroller",
+      "app_http_controllers_laporancontroller_laporancontroller_exportinvoiceexcel",
+      "app_http_controllers_laporancontroller_laporancontroller_exportlabarugiexcel",
+      "app_http_controllers_laporancontroller_laporancontroller_exporttiketexcel",
+      "app_http_controllers_laporancontroller_laporancontroller_invoice",
+      "app_http_controllers_laporancontroller_laporancontroller_tiket",
+      "app_http_controllers_profilecontroller",
+      "app_http_controllers_profilecontroller_profilecontroller",
+      "app_http_controllers_profilecontroller_profilecontroller_destroy",
+      "app_http_controllers_profilecontroller_profilecontroller_edit",
+      "app_http_controllers_profilecontroller_profilecontroller_update",
+      "app_view_components_applayout",
+      "app_view_components_applayout_applayout",
+      "app_view_components_applayout_applayout_render",
+      "app_view_components_guestlayout",
+      "app_view_components_guestlayout_guestlayout",
+      "app_view_components_guestlayout_guestlayout_render",
+      "illuminate_foundation_auth_emailverificationrequest",
+      "illuminate_http_redirectresponse",
+      "illuminate_http_request",
+      "illuminate_view_component",
+      "illuminate_view_view",
+      "routes_auth"
+    ],
+    "2": [
+      "app_exports_invoiceexport",
+      "app_exports_invoiceexport_invoiceexport",
+      "app_exports_invoiceexport_invoiceexport_collection",
+      "app_exports_invoiceexport_invoiceexport_columnformats",
+      "app_exports_invoiceexport_invoiceexport_construct",
+      "app_exports_invoiceexport_invoiceexport_headings",
+      "app_exports_invoiceexport_invoiceexport_map",
+      "app_exports_invoiceexport_invoiceexport_startcell",
+      "app_exports_invoiceexport_invoiceexport_styles",
+      "app_exports_invoiceexport_invoiceexport_title",
+      "app_exports_labarugiexport",
+      "app_exports_labarugiexport_labarugiexport",
+      "app_exports_labarugiexport_labarugiexport_columnformats",
+      "app_exports_labarugiexport_labarugiexport_construct",
+      "app_exports_labarugiexport_labarugiexport_headings",
+      "app_exports_labarugiexport_labarugiexport_startcell",
+      "app_exports_labarugiexport_labarugiexport_title",
+      "app_exports_tiketexport",
+      "app_exports_tiketexport_tiketexport",
+      "app_exports_tiketexport_tiketexport_collection",
+      "app_exports_tiketexport_tiketexport_columnformats",
+      "app_exports_tiketexport_tiketexport_construct",
+      "app_exports_tiketexport_tiketexport_headings",
+      "app_exports_tiketexport_tiketexport_map",
+      "app_exports_tiketexport_tiketexport_startcell",
+      "app_exports_tiketexport_tiketexport_styles",
+      "app_exports_tiketexport_tiketexport_title",
+      "app_http_controllers_dashboardcontroller",
+      "app_http_controllers_invoicecontroller",
+      "app_http_controllers_laporancontroller",
+      "app_http_controllers_perusahaancontroller",
+      "app_http_controllers_perusahaancontroller_perusahaancontroller",
+      "app_http_controllers_perusahaancontroller_perusahaancontroller_edit",
+      "app_http_controllers_perusahaancontroller_perusahaancontroller_update",
+      "app_http_controllers_tiketserviscontroller",
+      "app_models_detailinvoice",
+      "app_models_perusahaan",
+      "app_models_perusahaan_perusahaan",
+      "carbon_carbon",
+      "illuminate_support_collection",
+      "maatwebsite_excel_concerns_fromarray",
+      "maatwebsite_excel_concerns_fromcollection",
+      "maatwebsite_excel_concerns_shouldautosize",
+      "maatwebsite_excel_concerns_withcolumnformatting",
+      "maatwebsite_excel_concerns_withcustomstartcell",
+      "maatwebsite_excel_concerns_withheadings",
+      "maatwebsite_excel_concerns_withmapping",
+      "maatwebsite_excel_concerns_withstyles",
+      "maatwebsite_excel_concerns_withtitle",
+      "phpoffice_phpspreadsheet_worksheet_worksheet",
+      "routes_web"
+    ],
+    "3": [
+      "composer",
+      "composer_allow_plugins_pestphp_pest_plugin",
+      "composer_allow_plugins_php_http_discovery",
+      "composer_autoload",
+      "composer_autoload_dev",
+      "composer_autoload_dev_psr_4",
+      "composer_autoload_psr_4",
+      "composer_config",
+      "composer_config_allow_plugins",
+      "composer_config_optimize_autoloader",
+      "composer_config_preferred_install",
+      "composer_config_sort_packages",
+      "composer_description",
+      "composer_extra",
+      "composer_extra_laravel",
+      "composer_keywords",
+      "composer_laravel_dont_discover",
+      "composer_license",
+      "composer_minimum_stability",
+      "composer_name",
+      "composer_prefer_stable",
+      "composer_psr_4_app",
+      "composer_psr_4_database_factories",
+      "composer_psr_4_database_seeders",
+      "composer_psr_4_tests",
+      "composer_require",
+      "composer_require_barryvdh_laravel_dompdf",
+      "composer_require_dev",
+      "composer_require_dev_fakerphp_faker",
+      "composer_require_dev_laravel_boost",
+      "composer_require_dev_laravel_breeze",
+      "composer_require_dev_laravel_pail",
+      "composer_require_dev_laravel_pao",
+      "composer_require_dev_laravel_pint",
+      "composer_require_dev_mockery_mockery",
+      "composer_require_dev_nunomaduro_collision",
+      "composer_require_dev_phpunit_phpunit",
+      "composer_require_laravel_framework",
+      "composer_require_laravel_tinker",
+      "composer_require_maatwebsite_excel",
+      "composer_require_php",
+      "composer_require_spatie_laravel_activitylog",
+      "composer_require_spatie_laravel_permission",
+      "composer_schema",
+      "composer_type",
+      "ref_framework",
+      "ref_laravel"
+    ],
+    "4": [
+      "app_http_controllers_pengeluarancontroller",
+      "app_http_controllers_pengeluarancontroller_pengeluarancontroller",
+      "app_http_controllers_pengeluarancontroller_pengeluarancontroller_create",
+      "app_http_controllers_pengeluarancontroller_pengeluarancontroller_destroy",
+      "app_http_controllers_pengeluarancontroller_pengeluarancontroller_edit",
+      "app_http_controllers_pengeluarancontroller_pengeluarancontroller_store",
+      "app_http_controllers_pengeluarancontroller_pengeluarancontroller_update",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_hapusdokumentasi",
+      "app_models_detailinvoice_detailinvoice",
+      "app_models_detailinvoice_detailinvoice_casts",
+      "app_models_detailinvoice_detailinvoice_invoice",
+      "app_models_detailinvoice_detailinvoice_produk",
+      "app_models_dokumentasiunit",
+      "app_models_dokumentasiunit_dokumentasiunit",
+      "app_models_dokumentasiunit_dokumentasiunit_getfotourlattribute",
+      "app_models_dokumentasiunit_dokumentasiunit_getpathfotoattribute",
+      "app_models_dokumentasiunit_dokumentasiunit_tiket",
+      "app_models_dokumentasiunit_dokumentasiunit_user",
+      "app_models_invoice_invoice_pajak",
+      "app_models_invoice_invoice_tiket",
+      "app_models_pembayaran",
+      "app_models_pembayaran_pembayaran",
+      "app_models_pembayaran_pembayaran_casts",
+      "app_models_pembayaran_pembayaran_invoice",
+      "app_models_pembayaran_pembayaran_user",
+      "app_models_pengaturanaplikasi",
+      "app_models_pengaturanaplikasi_pengaturanaplikasi",
+      "app_models_pengaturanaplikasi_pengaturanaplikasi_getvalue",
+      "app_models_pengaturanaplikasi_pengaturanaplikasi_setvalue",
+      "app_models_pengeluaran",
+      "app_models_pengeluaran_pengeluaran",
+      "app_models_pengeluaran_pengeluaran_casts",
+      "app_models_pengeluaran_pengeluaran_user",
+      "app_models_produk_produk",
+      "app_models_produk_produk_casts",
+      "app_models_produk_produk_kategori",
+      "app_models_riwayatstatustiket",
+      "app_models_riwayatstatustiket_riwayatstatustiket",
+      "app_models_riwayatstatustiket_riwayatstatustiket_getstatusattribute",
+      "app_models_riwayatstatustiket_riwayatstatustiket_getstatuslabelattribute",
+      "app_models_riwayatstatustiket_riwayatstatustiket_tiket",
+      "app_models_riwayatstatustiket_riwayatstatustiket_user",
+      "app_models_tiketservis_tiketservis_pelanggan",
+      "app_models_tiketservis_tiketservis_teknisi",
+      "illuminate_database_eloquent_model",
+      "illuminate_database_eloquent_relations_belongsto"
+    ],
+    "5": [
+      "app_exports_labarugiexport_labarugiexport_array",
+      "app_exports_labarugiexport_labarugiexport_styles",
+      "app_http_controllers_dashboardcontroller_dashboardcontroller",
+      "app_http_controllers_dashboardcontroller_dashboardcontroller_getchartdata",
+      "app_http_controllers_dashboardcontroller_dashboardcontroller_index",
+      "app_http_controllers_invoicecontroller_invoicecontroller",
+      "app_http_controllers_invoicecontroller_invoicecontroller_bayar",
+      "app_http_controllers_invoicecontroller_invoicecontroller_cetakpdf",
+      "app_http_controllers_invoicecontroller_invoicecontroller_index",
+      "app_http_controllers_invoicecontroller_invoicecontroller_show",
+      "app_http_controllers_invoicecontroller_invoicecontroller_store",
+      "app_http_controllers_invoicecontroller_invoicecontroller_updatestatus",
+      "app_http_controllers_invoicecontroller_invoicecontroller_void",
+      "app_http_controllers_laporancontroller_laporancontroller_getlabarugichart",
+      "app_http_controllers_laporancontroller_laporancontroller_labarugi",
+      "app_http_controllers_pengeluarancontroller_pengeluarancontroller_index",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_cetaktandaterima",
+      "app_models_invoice",
+      "app_models_invoice_invoice",
+      "app_models_invoice_invoice_casts",
+      "app_models_invoice_invoice_detail",
+      "app_models_invoice_invoice_generatenoinvoice",
+      "app_models_invoice_invoice_getsisatagihanattribute",
+      "app_models_invoice_invoice_gettotaldibayarattribute",
+      "app_models_invoice_invoice_hitungtotal",
+      "app_models_invoice_invoice_pembayaran",
+      "app_models_invoice_invoice_perusahaan",
+      "app_models_invoice_invoice_updatestatuspembayaran",
+      "app_models_tiketservis_tiketservis_dokumentasi",
+      "app_models_tiketservis_tiketservis_riwayatstatus",
+      "app_models_user_user_tiketservis",
+      "carbon",
+      "controller",
+      "illuminate_database_eloquent_relations_hasmany",
+      "pengeluaran",
+      "tests_feature_uiflowtest_uiflowtest_test_invoice_pages_render"
+    ],
+    "6": [
+      "app_http_controllers_pelanggancontroller",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller_create",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller_destroy",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller_edit",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller_index",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller_search",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller_show",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller_store",
+      "app_http_controllers_pelanggancontroller_pelanggancontroller_update",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_create",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_destroy",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_edit",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_index",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_show",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_store",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_update",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_updatestatus",
+      "app_http_controllers_tiketserviscontroller_tiketserviscontroller_uploaddokumentasi",
+      "app_models_pelanggan",
+      "app_models_pelanggan_pelanggan",
+      "app_models_pelanggan_pelanggan_tiketservis",
+      "app_models_tiketservis",
+      "app_models_tiketservis_tiketservis",
+      "app_models_tiketservis_tiketservis_casts",
+      "app_models_tiketservis_tiketservis_generatenotiket",
+      "app_models_tiketservis_tiketservis_getstatuslabelattribute",
+      "app_models_tiketservis_tiketservis_invoice",
+      "app_models_tiketservis_tiketservis_scopebeluminvoice",
+      "illuminate_database_eloquent_builder",
+      "illuminate_database_eloquent_relations_hasone",
+      "pelanggan",
+      "tests_feature_uiflowtest_uiflowtest_test_tiket_servis_pages_render"
+    ],
+    "7": [
+      "app_http_controllers_pengaturanpajakcontroller",
+      "app_http_controllers_pengaturanpajakcontroller_pengaturanpajakcontroller",
+      "app_http_controllers_pengaturanpajakcontroller_pengaturanpajakcontroller_create",
+      "app_http_controllers_pengaturanpajakcontroller_pengaturanpajakcontroller_destroy",
+      "app_http_controllers_pengaturanpajakcontroller_pengaturanpajakcontroller_edit",
+      "app_http_controllers_pengaturanpajakcontroller_pengaturanpajakcontroller_index",
+      "app_http_controllers_pengaturanpajakcontroller_pengaturanpajakcontroller_store",
+      "app_http_controllers_pengaturanpajakcontroller_pengaturanpajakcontroller_update",
+      "app_models_pengaturanpajak",
+      "app_models_pengaturanpajak_pengaturanpajak",
+      "app_models_pengaturanpajak_pengaturanpajak_casts",
+      "app_models_pengaturanpajak_pengaturanpajak_getlabelkondisiattribute",
+      "app_models_pengaturanpajak_pengaturanpajak_scopeaktif",
+      "config_permission",
+      "database_seeders_databaseseeder",
+      "database_seeders_databaseseeder_databaseseeder",
+      "database_seeders_databaseseeder_databaseseeder_run",
+      "illuminate_database_seeder",
+      "tests_feature_uiflowtest",
+      "tests_feature_uiflowtest_uiflowtest",
+      "tests_feature_uiflowtest_uiflowtest_setup",
+      "tests_feature_uiflowtest_uiflowtest_test_authenticated_dashboard_renders_with_kpi",
+      "tests_feature_uiflowtest_uiflowtest_test_dynamic_threshold_tax_calculation",
+      "tests_feature_uiflowtest_uiflowtest_test_laporan_pages_render",
+      "tests_feature_uiflowtest_uiflowtest_test_login_page_renders_with_cekat_cell_branding",
+      "tests_feature_uiflowtest_uiflowtest_test_pelanggan_pages_render",
+      "tests_feature_uiflowtest_uiflowtest_test_pengaturan_and_users_pages_render",
+      "tests_feature_uiflowtest_uiflowtest_test_pengeluaran_pages_render",
+      "tests_feature_uiflowtest_uiflowtest_test_produk_pages_render",
+      "tests_feature_uiflowtest_uiflowtest_test_profile_page_renders_and_is_linked_in_menu",
+      "tests_testcase"
+    ],
+    "8": [
+      "alpinejs",
+      "autoprefixer",
+      "concurrently",
+      "laravel_multiplex",
+      "laravel_vite_plugin",
+      "package",
+      "package_devdependencies",
+      "package_devdependencies_alpinejs",
+      "package_devdependencies_autoprefixer",
+      "package_devdependencies_concurrently",
+      "package_devdependencies_laravel_vite_plugin",
+      "package_devdependencies_postcss",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_tailwindcss_forms",
+      "package_devdependencies_tailwindcss_vite",
+      "package_devdependencies_vite",
+      "package_optionaldependencies",
+      "package_optionaldependencies_laravel_multiplex",
+      "package_private",
+      "package_schema",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_type",
+      "postcss",
+      "tailwindcss",
+      "tailwindcss_forms",
+      "tailwindcss_vite",
+      "vite"
+    ],
+    "9": [
+      "composer_scripts",
+      "composer_scripts_dev",
+      "composer_scripts_post_autoload_dump",
+      "composer_scripts_post_create_project_cmd",
+      "composer_scripts_post_root_package_install",
+      "composer_scripts_post_update_cmd",
+      "composer_scripts_pre_package_uninstall",
+      "composer_scripts_setup",
+      "composer_scripts_test",
+      "ref_composer_config_disableprocesstimeout",
+      "ref_composer_install",
+      "ref_illuminate_foundation_composerscripts_postautoloaddump",
+      "ref_illuminate_foundation_composerscripts_prepackageuninstall",
+      "ref_npm_install_ignore_scripts",
+      "ref_npm_run_build",
+      "ref_php_artisan_config_clear_ansi_no_additional_args",
+      "ref_php_artisan_dev",
+      "ref_php_artisan_key_generate",
+      "ref_php_artisan_key_generate_ansi",
+      "ref_php_artisan_migrate_force",
+      "ref_php_artisan_migrate_graceful_ansi",
+      "ref_php_artisan_package_discover_ansi",
+      "ref_php_artisan_test",
+      "ref_php_artisan_vendor_publish_tag_laravel_assets_ansi_force",
+      "ref_php_r_file_exists_database_database_sqlite_touch_database_database_sqlite",
+      "ref_php_r_file_exists_env_copy_env_example_env"
+    ],
+    "10": [
+      "app_http_controllers_invoicecontroller_invoicecontroller_create",
+      "app_http_controllers_kategoriprodukcontroller",
+      "app_http_controllers_kategoriprodukcontroller_kategoriprodukcontroller",
+      "app_http_controllers_kategoriprodukcontroller_kategoriprodukcontroller_create",
+      "app_http_controllers_kategoriprodukcontroller_kategoriprodukcontroller_destroy",
+      "app_http_controllers_kategoriprodukcontroller_kategoriprodukcontroller_edit",
+      "app_http_controllers_kategoriprodukcontroller_kategoriprodukcontroller_index",
+      "app_http_controllers_kategoriprodukcontroller_kategoriprodukcontroller_store",
+      "app_http_controllers_kategoriprodukcontroller_kategoriprodukcontroller_update",
+      "app_http_controllers_produkcontroller",
+      "app_http_controllers_produkcontroller_produkcontroller",
+      "app_http_controllers_produkcontroller_produkcontroller_create",
+      "app_http_controllers_produkcontroller_produkcontroller_destroy",
+      "app_http_controllers_produkcontroller_produkcontroller_edit",
+      "app_http_controllers_produkcontroller_produkcontroller_index",
+      "app_http_controllers_produkcontroller_produkcontroller_search",
+      "app_http_controllers_produkcontroller_produkcontroller_store",
+      "app_http_controllers_produkcontroller_produkcontroller_update",
+      "app_models_kategoriproduk",
+      "app_models_kategoriproduk_kategoriproduk",
+      "app_models_kategoriproduk_kategoriproduk_produk",
+      "app_models_produk",
+      "kategoriproduk",
+      "produk"
+    ],
+    "11": [
+      "app_http_requests_auth_loginrequest",
+      "app_http_requests_auth_loginrequest_loginrequest",
+      "app_http_requests_auth_loginrequest_loginrequest_authenticate",
+      "app_http_requests_auth_loginrequest_loginrequest_authorize",
+      "app_http_requests_auth_loginrequest_loginrequest_ensureisnotratelimited",
+      "app_http_requests_auth_loginrequest_loginrequest_logincredential",
+      "app_http_requests_auth_loginrequest_loginrequest_loginfield",
+      "app_http_requests_auth_loginrequest_loginrequest_rules",
+      "app_http_requests_auth_loginrequest_loginrequest_throttlekey",
+      "app_http_requests_profileupdaterequest",
+      "app_http_requests_profileupdaterequest_profileupdaterequest",
+      "app_http_requests_profileupdaterequest_profileupdaterequest_rules",
+      "illuminate_foundation_http_formrequest"
+    ],
+    "12": [
+      "opencode",
+      "opencode_instructions",
+      "opencode_laravel_boost_command",
+      "opencode_laravel_boost_enabled",
+      "opencode_laravel_boost_type",
+      "opencode_mcp",
+      "opencode_mcp_laravel_boost",
+      "opencode_schema",
+      "ref_artisan",
+      "ref_boost_mcp",
+      "ref_config_opencode_skills_graphify_skill_md",
+      "ref_php"
+    ],
+    "13": [
+      "app_models_pengaturanpajak_pengaturanpajak_tentukanpajakotomatis",
+      "database_factories_userfactory",
+      "database_factories_userfactory_userfactory",
+      "database_factories_userfactory_userfactory_definition",
+      "database_factories_userfactory_userfactory_unverified",
+      "illuminate_database_eloquent_factories_factory",
+      "self",
+      "static"
+    ],
+    "14": [
+      "app_providers_appserviceprovider",
+      "app_providers_appserviceprovider_appserviceprovider",
+      "app_providers_appserviceprovider_appserviceprovider_boot",
+      "app_providers_appserviceprovider_appserviceprovider_register",
+      "bootstrap_providers",
+      "illuminate_support_facades_view",
+      "illuminate_support_serviceprovider"
+    ],
+    "15": [
+      "app_http_middleware_checkpermission",
+      "app_http_middleware_checkpermission_checkpermission",
+      "app_http_middleware_checkpermission_checkpermission_handle",
+      "closure",
+      "symfony_component_httpfoundation_response"
+    ],
+    "16": [
+      "phpunit_framework_testcase",
+      "tests_unit_exampletest",
+      "tests_unit_exampletest_exampletest",
+      "tests_unit_exampletest_exampletest_test_that_true_is_true"
+    ],
+    "17": [
+      "database_migrations_0001_01_01_000000_create_users_table",
+      "database_migrations_0001_01_01_000000_create_users_table_down",
+      "database_migrations_0001_01_01_000000_create_users_table_up"
+    ],
+    "18": [
+      "database_migrations_0001_01_01_000001_create_cache_table",
+      "database_migrations_0001_01_01_000001_create_cache_table_down",
+      "database_migrations_0001_01_01_000001_create_cache_table_up"
+    ],
+    "19": [
+      "database_migrations_0001_01_01_000002_create_jobs_table",
+      "database_migrations_0001_01_01_000002_create_jobs_table_down",
+      "database_migrations_0001_01_01_000002_create_jobs_table_up"
+    ],
+    "20": [
+      "database_migrations_2026_09_15_055122_create_permission_tables",
+      "database_migrations_2026_09_15_055122_create_permission_tables_down",
+      "database_migrations_2026_09_15_055122_create_permission_tables_up"
+    ],
+    "21": [
+      "database_migrations_2026_09_15_060001_create_perusahaan_table",
+      "database_migrations_2026_09_15_060001_create_perusahaan_table_down",
+      "database_migrations_2026_09_15_060001_create_perusahaan_table_up"
+    ],
+    "22": [
+      "database_migrations_2026_09_15_060002_create_pelanggan_table",
+      "database_migrations_2026_09_15_060002_create_pelanggan_table_down",
+      "database_migrations_2026_09_15_060002_create_pelanggan_table_up"
+    ],
+    "23": [
+      "database_migrations_2026_09_15_060003_create_kategori_produk_table",
+      "database_migrations_2026_09_15_060003_create_kategori_produk_table_down",
+      "database_migrations_2026_09_15_060003_create_kategori_produk_table_up"
+    ],
+    "24": [
+      "database_migrations_2026_09_15_060004_create_produk_table",
+      "database_migrations_2026_09_15_060004_create_produk_table_down",
+      "database_migrations_2026_09_15_060004_create_produk_table_up"
+    ],
+    "25": [
+      "database_migrations_2026_09_15_060005_create_pengaturan_pajak_table",
+      "database_migrations_2026_09_15_060005_create_pengaturan_pajak_table_down",
+      "database_migrations_2026_09_15_060005_create_pengaturan_pajak_table_up"
+    ],
+    "26": [
+      "database_migrations_2026_09_15_060006_create_tiket_servis_table",
+      "database_migrations_2026_09_15_060006_create_tiket_servis_table_down",
+      "database_migrations_2026_09_15_060006_create_tiket_servis_table_up"
+    ],
+    "27": [
+      "database_migrations_2026_09_15_060007_create_riwayat_status_tiket_table",
+      "database_migrations_2026_09_15_060007_create_riwayat_status_tiket_table_down",
+      "database_migrations_2026_09_15_060007_create_riwayat_status_tiket_table_up"
+    ],
+    "28": [
+      "database_migrations_2026_09_15_060008_create_dokumentasi_unit_table",
+      "database_migrations_2026_09_15_060008_create_dokumentasi_unit_table_down",
+      "database_migrations_2026_09_15_060008_create_dokumentasi_unit_table_up"
+    ],
+    "29": [
+      "database_migrations_2026_09_15_060009_create_invoice_table",
+      "database_migrations_2026_09_15_060009_create_invoice_table_down",
+      "database_migrations_2026_09_15_060009_create_invoice_table_up"
+    ],
+    "30": [
+      "database_migrations_2026_09_15_060010_create_detail_invoice_table",
+      "database_migrations_2026_09_15_060010_create_detail_invoice_table_down",
+      "database_migrations_2026_09_15_060010_create_detail_invoice_table_up"
+    ],
+    "31": [
+      "database_migrations_2026_09_15_060011_create_pembayaran_table",
+      "database_migrations_2026_09_15_060011_create_pembayaran_table_down",
+      "database_migrations_2026_09_15_060011_create_pembayaran_table_up"
+    ],
+    "32": [
+      "database_migrations_2026_09_15_060012_create_pengeluaran_table",
+      "database_migrations_2026_09_15_060012_create_pengeluaran_table_down",
+      "database_migrations_2026_09_15_060012_create_pengeluaran_table_up"
+    ],
+    "33": [
+      "database_migrations_2026_09_15_060013_create_pengaturan_aplikasi_table",
+      "database_migrations_2026_09_15_060013_create_pengaturan_aplikasi_table_down",
+      "database_migrations_2026_09_15_060013_create_pengaturan_aplikasi_table_up"
+    ],
+    "34": [
+      "database_migrations_2026_09_15_070000_add_estimasi_and_kelengkapan_to_tiket_servis_table",
+      "database_migrations_2026_09_15_070000_add_estimasi_and_kelengkapan_to_tiket_servis_table_down",
+      "database_migrations_2026_09_15_070000_add_estimasi_and_kelengkapan_to_tiket_servis_table_up"
+    ],
+    "35": [
+      "database_migrations_2026_09_15_071000_make_tiket_and_produk_nullable_in_invoices",
+      "database_migrations_2026_09_15_071000_make_tiket_and_produk_nullable_in_invoices_down",
+      "database_migrations_2026_09_15_071000_make_tiket_and_produk_nullable_in_invoices_up"
+    ],
+    "36": [
+      "database_migrations_2026_09_15_072000_add_biaya_final_to_tiket_servis_table",
+      "database_migrations_2026_09_15_072000_add_biaya_final_to_tiket_servis_table_down",
+      "database_migrations_2026_09_15_072000_add_biaya_final_to_tiket_servis_table_up"
+    ],
+    "37": [
+      "database_migrations_2026_09_15_080000_add_username_to_users_table",
+      "database_migrations_2026_09_15_080000_add_username_to_users_table_down",
+      "database_migrations_2026_09_15_080000_add_username_to_users_table_up"
+    ],
+    "38": [
+      "database_migrations_2026_09_16_021406_add_threshold_rules_to_pengaturan_pajak_table",
+      "database_migrations_2026_09_16_021406_add_threshold_rules_to_pengaturan_pajak_table_down",
+      "database_migrations_2026_09_16_021406_add_threshold_rules_to_pengaturan_pajak_table_up"
+    ],
+    "39": [
+      "mcp",
+      "mcp_command_php",
+      "mcp_mcp_server_laravel_boost"
+    ],
+    "40": [
+      "profile_partials_update_password_form",
+      "profile_partials_update_profile_information_form",
+      "resources_views_profile_edit_blade"
+    ],
+    "41": [
+      "artisan",
+      "routes_console"
+    ],
+    "42": [
+      "database_migrations_2026_09_15_055122_create_activity_log_table",
+      "database_migrations_2026_09_15_055122_create_activity_log_table_up"
+    ],
+    "43": [
+      "bootstrap_app"
+    ],
+    "44": [
+      "config_app"
+    ],
+    "45": [
+      "config_cache"
+    ],
+    "46": [
+      "config_database"
+    ],
+    "47": [
+      "config_filesystems"
+    ],
+    "48": [
+      "config_logging"
+    ],
+    "49": [
+      "config_mail"
+    ],
+    "50": [
+      "config_queue"
+    ],
+    "51": [
+      "config_services"
+    ],
+    "52": [
+      "config_session"
+    ],
+    "53": [
+      "postcss_config"
+    ],
+    "54": [
+      "public_index"
+    ],
+    "55": [
+      "resources_js_app"
+    ],
+    "56": [
+      "resources_views_auth_confirm_password_blade"
+    ],
+    "57": [
+      "resources_views_auth_forgot_password_blade"
+    ],
+    "58": [
+      "resources_views_auth_login_blade"
+    ],
+    "59": [
+      "resources_views_auth_register_blade"
+    ],
+    "60": [
+      "resources_views_auth_reset_password_blade"
+    ],
+    "61": [
+      "resources_views_auth_verify_email_blade"
+    ],
+    "62": [
+      "resources_views_components_application_logo_blade"
+    ],
+    "63": [
+      "resources_views_components_auth_session_status_blade"
+    ],
+    "64": [
+      "resources_views_components_danger_button_blade"
+    ],
+    "65": [
+      "resources_views_components_dropdown_blade"
+    ],
+    "66": [
+      "resources_views_components_dropdown_link_blade"
+    ],
+    "67": [
+      "resources_views_components_input_error_blade"
+    ],
+    "68": [
+      "resources_views_components_input_label_blade"
+    ],
+    "69": [
+      "resources_views_components_modal_blade"
+    ],
+    "70": [
+      "resources_views_components_nav_link_blade"
+    ],
+    "71": [
+      "resources_views_components_primary_button_blade"
+    ],
+    "72": [
+      "resources_views_components_responsive_nav_link_blade"
+    ],
+    "73": [
+      "resources_views_components_secondary_button_blade"
+    ],
+    "74": [
+      "resources_views_components_sidebar_group_blade"
+    ],
+    "75": [
+      "resources_views_components_sidebar_link_blade"
+    ],
+    "76": [
+      "resources_views_components_sidebar_sublink_blade"
+    ],
+    "77": [
+      "resources_views_components_text_input_blade"
+    ],
+    "78": [
+      "resources_views_dashboard_blade"
+    ],
+    "79": [
+      "resources_views_invoice_create_blade"
+    ],
+    "80": [
+      "resources_views_invoice_index_blade"
+    ],
+    "81": [
+      "resources_views_invoice_pdf_blade"
+    ],
+    "82": [
+      "resources_views_invoice_show_blade"
+    ],
+    "83": [
+      "resources_views_kategori_produk_create_blade"
+    ],
+    "84": [
+      "resources_views_kategori_produk_edit_blade"
+    ],
+    "85": [
+      "resources_views_kategori_produk_index_blade"
+    ],
+    "86": [
+      "resources_views_laporan_invoice_blade"
+    ],
+    "87": [
+      "resources_views_laporan_laba_rugi_blade"
+    ],
+    "88": [
+      "resources_views_laporan_tiket_blade"
+    ],
+    "89": [
+      "resources_views_layouts_app_blade"
+    ],
+    "90": [
+      "resources_views_layouts_guest_blade"
+    ],
+    "91": [
+      "resources_views_layouts_navigation_blade"
+    ],
+    "92": [
+      "resources_views_pelanggan_create_blade"
+    ],
+    "93": [
+      "resources_views_pelanggan_edit_blade"
+    ],
+    "94": [
+      "resources_views_pelanggan_index_blade"
+    ],
+    "95": [
+      "resources_views_pelanggan_show_blade"
+    ],
+    "96": [
+      "resources_views_pengaturan_pajak_create_blade"
+    ],
+    "97": [
+      "resources_views_pengaturan_pajak_edit_blade"
+    ],
+    "98": [
+      "resources_views_pengaturan_pajak_index_blade"
+    ],
+    "99": [
+      "resources_views_pengaturan_perusahaan_blade"
+    ],
+    "100": [
+      "resources_views_pengeluaran_create_blade"
+    ],
+    "101": [
+      "resources_views_pengeluaran_edit_blade"
+    ],
+    "102": [
+      "resources_views_pengeluaran_index_blade"
+    ],
+    "103": [
+      "resources_views_produk_create_blade"
+    ],
+    "104": [
+      "resources_views_produk_edit_blade"
+    ],
+    "105": [
+      "resources_views_produk_index_blade"
+    ],
+    "106": [
+      "resources_views_profile_partials_delete_user_form_blade"
+    ],
+    "107": [
+      "resources_views_profile_partials_update_password_form_blade"
+    ],
+    "108": [
+      "resources_views_profile_partials_update_profile_information_form_blade"
+    ],
+    "109": [
+      "resources_views_tiket_servis_create_blade"
+    ],
+    "110": [
+      "resources_views_tiket_servis_edit_blade"
+    ],
+    "111": [
+      "resources_views_tiket_servis_index_blade"
+    ],
+    "112": [
+      "resources_views_tiket_servis_show_blade"
+    ],
+    "113": [
+      "resources_views_tiket_servis_tanda_terima_pdf_blade"
+    ],
+    "114": [
+      "resources_views_users_create_blade"
+    ],
+    "115": [
+      "resources_views_users_edit_blade"
+    ],
+    "116": [
+      "resources_views_users_index_blade"
+    ],
+    "117": [
+      "resources_views_welcome_blade"
+    ],
+    "118": [
+      "tailwind_config"
+    ],
+    "119": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06284153005464481,
+    "1": 0.08287961282516637,
+    "2": 0.08627450980392157,
+    "3": 0.0425531914893617,
+    "4": 0.0647342995169082,
+    "5": 0.09682539682539683,
+    "6": 0.09269162210338681,
+    "7": 0.08602150537634409,
+    "8": 0.06896551724137931,
+    "9": 0.08,
+    "10": 0.12681159420289856,
+    "11": 0.2692307692307692,
+    "12": 0.16666666666666666,
+    "13": 0.32142857142857145,
+    "14": 0.3333333333333333,
+    "15": 0.6,
+    "16": 0.6666666666666666,
+    "17": 0.6666666666666666,
+    "18": 0.6666666666666666,
+    "19": 0.6666666666666666,
+    "20": 0.6666666666666666,
+    "21": 0.6666666666666666,
+    "22": 0.6666666666666666,
+    "23": 0.6666666666666666,
+    "24": 0.6666666666666666,
+    "25": 0.6666666666666666,
+    "26": 0.6666666666666666,
+    "27": 0.6666666666666666,
+    "28": 0.6666666666666666,
+    "29": 0.6666666666666666,
+    "30": 0.6666666666666666,
+    "31": 0.6666666666666666,
+    "32": 0.6666666666666666,
+    "33": 0.6666666666666666,
+    "34": 0.6666666666666666,
+    "35": 0.6666666666666666,
+    "36": 0.6666666666666666,
+    "37": 0.6666666666666666,
+    "38": 0.6666666666666666,
+    "39": 0.6666666666666666,
+    "40": 0.6666666666666666,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0,
+    "94": 1.0,
+    "95": 1.0,
+    "96": 1.0,
+    "97": 1.0,
+    "98": 1.0,
+    "99": 1.0,
+    "100": 1.0,
+    "101": 1.0,
+    "102": 1.0,
+    "103": 1.0,
+    "104": 1.0,
+    "105": 1.0,
+    "106": 1.0,
+    "107": 1.0,
+    "108": 1.0,
+    "109": 1.0,
+    "110": 1.0,
+    "111": 1.0,
+    "112": 1.0,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_models_user_user",
+      "label": "User",
+      "degree": 53
+    },
+    {
+      "id": "app_models_invoice_invoice",
+      "label": "Invoice",
+      "degree": 32
+    },
+    {
+      "id": "app_models_tiketservis_tiketservis",
+      "label": "TiketServis",
+      "degree": 32
+    },
+    {
+      "id": "app_http_controllers_controller_controller",
+      "label": "Controller",
+      "degree": 23
+    },
+    {
+      "id": "tests_testcase_testcase",
+      "label": "TestCase",
+      "degree": 18
+    },
+    {
+      "id": "app_exports_invoiceexport_invoiceexport",
+      "label": "InvoiceExport",
+      "degree": 18
+    },
+    {
+      "id": "app_exports_tiketexport_tiketexport",
+      "label": "TiketExport",
+      "degree": 18
+    },
+    {
+      "id": "app_exports_labarugiexport_labarugiexport",
+      "label": "LabaRugiExport",
+      "degree": 15
+    },
+    {
+      "id": "tests_feature_uiflowtest_uiflowtest",
+      "label": "UIFlowTest",
+      "degree": 15
+    },
+    {
+      "id": "app_models_pengaturanpajak_pengaturanpajak",
+      "label": "PengaturanPajak",
+      "degree": 14
+    }
+  ],
+  "surprises": [
+    {
+      "source": "PengaturanPajakController",
+      "target": "Controller",
+      "source_files": [
+        "app/Http/Controllers/PengaturanPajakController.php",
+        "app/Http/Controllers/Controller.php"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "PerusahaanController",
+      "target": "Controller",
+      "source_files": [
+        "app/Http/Controllers/PerusahaanController.php",
+        "app/Http/Controllers/Controller.php"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "UserController",
+      "target": "Controller",
+      "source_files": [
+        "app/Http/Controllers/UserController.php",
+        "app/Http/Controllers/Controller.php"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "AuthenticatedSessionController",
+      "target": "Controller",
+      "source_files": [
+        "app/Http/Controllers/Auth/AuthenticatedSessionController.php",
+        "app/Http/Controllers/Controller.php"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "ConfirmablePasswordController",
+      "target": "Controller",
+      "source_files": [
+        "app/Http/Controllers/Auth/ConfirmablePasswordController.php",
+        "app/Http/Controllers/Controller.php"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

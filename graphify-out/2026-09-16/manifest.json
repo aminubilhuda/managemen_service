@@ -1,0 +1,857 @@
+{
+  ".mcp.json": {
+    "mtime": 1789523894.817334,
+    "ast_hash": "e9aa1f8c50e06cc1a7764cb08654183d",
+    "semantic_hash": "e9aa1f8c50e06cc1a7764cb08654183d"
+  },
+  "app/Exports/InvoiceExport.php": {
+    "mtime": 1789452044.192127,
+    "ast_hash": "80d9a7fb5435e298b403ba23528aedfb",
+    "semantic_hash": "80d9a7fb5435e298b403ba23528aedfb"
+  },
+  "app/Exports/LabaRugiExport.php": {
+    "mtime": 1789452070.7990553,
+    "ast_hash": "ab930f3be2c2ffddf14ba0bebfbbc795",
+    "semantic_hash": "ab930f3be2c2ffddf14ba0bebfbbc795"
+  },
+  "app/Exports/TiketExport.php": {
+    "mtime": 1789452054.4885907,
+    "ast_hash": "1ad64c11d4eca558ca5ff1e44f6a555a",
+    "semantic_hash": "1ad64c11d4eca558ca5ff1e44f6a555a"
+  },
+  "app/Http/Controllers/Auth/AuthenticatedSessionController.php": {
+    "mtime": 1789451358.048519,
+    "ast_hash": "0ec72cf98bcff6621d9e1f03ea018f8a",
+    "semantic_hash": "0ec72cf98bcff6621d9e1f03ea018f8a"
+  },
+  "app/Http/Controllers/Auth/ConfirmablePasswordController.php": {
+    "mtime": 1789451358.0486996,
+    "ast_hash": "bda485943308b8e21e667e5f4a287946",
+    "semantic_hash": "bda485943308b8e21e667e5f4a287946"
+  },
+  "app/Http/Controllers/Auth/EmailVerificationNotificationController.php": {
+    "mtime": 1789451358.0484366,
+    "ast_hash": "68ced5fefa7a2362391bc17048d150a4",
+    "semantic_hash": "68ced5fefa7a2362391bc17048d150a4"
+  },
+  "app/Http/Controllers/Auth/EmailVerificationPromptController.php": {
+    "mtime": 1789451358.0480554,
+    "ast_hash": "c3fcbf0a3661adc8a24fd44fd6a9107b",
+    "semantic_hash": "c3fcbf0a3661adc8a24fd44fd6a9107b"
+  },
+  "app/Http/Controllers/Auth/NewPasswordController.php": {
+    "mtime": 1789451358.0479398,
+    "ast_hash": "806e274e94c7a726e967d5ae9bc29a8b",
+    "semantic_hash": "806e274e94c7a726e967d5ae9bc29a8b"
+  },
+  "app/Http/Controllers/Auth/PasswordController.php": {
+    "mtime": 1789451358.0483434,
+    "ast_hash": "b174129f4c888fcbe29ad3fbe0762fde",
+    "semantic_hash": "b174129f4c888fcbe29ad3fbe0762fde"
+  },
+  "app/Http/Controllers/Auth/PasswordResetLinkController.php": {
+    "mtime": 1789451358.0482497,
+    "ast_hash": "4c6934c157d0f2e36457b437e08a44b2",
+    "semantic_hash": "4c6934c157d0f2e36457b437e08a44b2"
+  },
+  "app/Http/Controllers/Auth/RegisteredUserController.php": {
+    "mtime": 1789451358.0486143,
+    "ast_hash": "89c4a17a5fe8517f47bc4bb807af566f",
+    "semantic_hash": "89c4a17a5fe8517f47bc4bb807af566f"
+  },
+  "app/Http/Controllers/Auth/VerifyEmailController.php": {
+    "mtime": 1789451358.048156,
+    "ast_hash": "f7ba8245c1fa0f3e7d8591364c8f8943",
+    "semantic_hash": "f7ba8245c1fa0f3e7d8591364c8f8943"
+  },
+  "app/Http/Controllers/Controller.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "25a307335c0719bc9a91b3f7babd186d",
+    "semantic_hash": "25a307335c0719bc9a91b3f7babd186d"
+  },
+  "app/Http/Controllers/DashboardController.php": {
+    "mtime": 1789451852.723959,
+    "ast_hash": "5b0674483fc3e56626a74cd336b577f8",
+    "semantic_hash": "5b0674483fc3e56626a74cd336b577f8"
+  },
+  "app/Http/Controllers/InvoiceController.php": {
+    "mtime": 1789525120.514834,
+    "ast_hash": "ae62d89dcd8043d898f2c936d58ef607",
+    "semantic_hash": "ae62d89dcd8043d898f2c936d58ef607"
+  },
+  "app/Http/Controllers/KategoriProdukController.php": {
+    "mtime": 1789451878.9194088,
+    "ast_hash": "8a830585c99fe1b74f143572ea0f18f7",
+    "semantic_hash": "8a830585c99fe1b74f143572ea0f18f7"
+  },
+  "app/Http/Controllers/LaporanController.php": {
+    "mtime": 1789452034.3011484,
+    "ast_hash": "6ec4b75c9bbcc4edd5ad4edf28a10285",
+    "semantic_hash": "6ec4b75c9bbcc4edd5ad4edf28a10285"
+  },
+  "app/Http/Controllers/PelangganController.php": {
+    "mtime": 1789451866.7198462,
+    "ast_hash": "b32aecbba56637fd48aa13944f524ac4",
+    "semantic_hash": "b32aecbba56637fd48aa13944f524ac4"
+  },
+  "app/Http/Controllers/PengaturanPajakController.php": {
+    "mtime": 1789525120.4222884,
+    "ast_hash": "3cd295deb2358e803e1aaf5d3e3ac50f",
+    "semantic_hash": "3cd295deb2358e803e1aaf5d3e3ac50f"
+  },
+  "app/Http/Controllers/PengeluaranController.php": {
+    "mtime": 1789451970.8398192,
+    "ast_hash": "0354e986e5167eeeddef6bbfa20486a1",
+    "semantic_hash": "0354e986e5167eeeddef6bbfa20486a1"
+  },
+  "app/Http/Controllers/PerusahaanController.php": {
+    "mtime": 1789524484.9137902,
+    "ast_hash": "87feea4d4735033e8cf9f34f9c461651",
+    "semantic_hash": "87feea4d4735033e8cf9f34f9c461651"
+  },
+  "app/Http/Controllers/ProdukController.php": {
+    "mtime": 1789451895.3858342,
+    "ast_hash": "667e0c92aa6b94b601280ea244f89600",
+    "semantic_hash": "667e0c92aa6b94b601280ea244f89600"
+  },
+  "app/Http/Controllers/ProfileController.php": {
+    "mtime": 1789451358.0487866,
+    "ast_hash": "2951d93e0803ea1aba041d8d7ed264c8",
+    "semantic_hash": "2951d93e0803ea1aba041d8d7ed264c8"
+  },
+  "app/Http/Controllers/TiketServisController.php": {
+    "mtime": 1789525707.3524742,
+    "ast_hash": "468fa484e820385009620aa1520f6e2f",
+    "semantic_hash": "468fa484e820385009620aa1520f6e2f"
+  },
+  "app/Http/Controllers/UserController.php": {
+    "mtime": 1789524117.3329382,
+    "ast_hash": "10bd27f9503aef1989bcb6a54aca2616",
+    "semantic_hash": "10bd27f9503aef1989bcb6a54aca2616"
+  },
+  "app/Http/Middleware/CheckPermission.php": {
+    "mtime": 1789451762.9457452,
+    "ast_hash": "6b7bae164bbfa3b58572ec3a77df6869",
+    "semantic_hash": "6b7bae164bbfa3b58572ec3a77df6869"
+  },
+  "app/Http/Requests/Auth/LoginRequest.php": {
+    "mtime": 1789524004.298025,
+    "ast_hash": "98d165c588323cace15a13c7d562dec7",
+    "semantic_hash": "98d165c588323cace15a13c7d562dec7"
+  },
+  "app/Http/Requests/ProfileUpdateRequest.php": {
+    "mtime": 1789524041.5700014,
+    "ast_hash": "e4b631f05986a44ac3b0d18eb8197894",
+    "semantic_hash": "e4b631f05986a44ac3b0d18eb8197894"
+  },
+  "app/Models/DetailInvoice.php": {
+    "mtime": 1789451700.8140795,
+    "ast_hash": "1ebf907b470500fff4a31c930778b38f",
+    "semantic_hash": "1ebf907b470500fff4a31c930778b38f"
+  },
+  "app/Models/DokumentasiUnit.php": {
+    "mtime": 1789525691.3328004,
+    "ast_hash": "291867131c8aa749a7df2821c2a69bc7",
+    "semantic_hash": "291867131c8aa749a7df2821c2a69bc7"
+  },
+  "app/Models/Invoice.php": {
+    "mtime": 1789457154.8587575,
+    "ast_hash": "561b0dc2bca5768118e5cd26c4a6c581",
+    "semantic_hash": "561b0dc2bca5768118e5cd26c4a6c581"
+  },
+  "app/Models/KategoriProduk.php": {
+    "mtime": 1789451630.1586587,
+    "ast_hash": "73d6809d41e7678518dd1993debafab5",
+    "semantic_hash": "73d6809d41e7678518dd1993debafab5"
+  },
+  "app/Models/Pelanggan.php": {
+    "mtime": 1789451624.6650047,
+    "ast_hash": "d96e04b977cb383d0d060b8b591fdc38",
+    "semantic_hash": "d96e04b977cb383d0d060b8b591fdc38"
+  },
+  "app/Models/Pembayaran.php": {
+    "mtime": 1789451709.0812304,
+    "ast_hash": "806be6e2e149c33e444c96822fd78925",
+    "semantic_hash": "806be6e2e149c33e444c96822fd78925"
+  },
+  "app/Models/PengaturanAplikasi.php": {
+    "mtime": 1789451725.2850358,
+    "ast_hash": "751b505995328c29f02076e556f1037c",
+    "semantic_hash": "751b505995328c29f02076e556f1037c"
+  },
+  "app/Models/PengaturanPajak.php": {
+    "mtime": 1789525120.4038808,
+    "ast_hash": "b25413f5c8ab3c417d72c91281b92abc",
+    "semantic_hash": "b25413f5c8ab3c417d72c91281b92abc"
+  },
+  "app/Models/Pengeluaran.php": {
+    "mtime": 1789451716.7731078,
+    "ast_hash": "da129d457a2a28d7a0eb6be44e7324d6",
+    "semantic_hash": "da129d457a2a28d7a0eb6be44e7324d6"
+  },
+  "app/Models/Perusahaan.php": {
+    "mtime": 1789451617.7556355,
+    "ast_hash": "2ec213ea30f4ce2d52c1f2c96f2b628e",
+    "semantic_hash": "2ec213ea30f4ce2d52c1f2c96f2b628e"
+  },
+  "app/Models/Produk.php": {
+    "mtime": 1789451638.0076392,
+    "ast_hash": "725cf2e2c9f5c8dc819356281e76cc5e",
+    "semantic_hash": "725cf2e2c9f5c8dc819356281e76cc5e"
+  },
+  "app/Models/RiwayatStatusTiket.php": {
+    "mtime": 1789525665.9847248,
+    "ast_hash": "0788fe0ea356a3b1881ee81cbdec9c33",
+    "semantic_hash": "0788fe0ea356a3b1881ee81cbdec9c33"
+  },
+  "app/Models/TiketServis.php": {
+    "mtime": 1789525647.003043,
+    "ast_hash": "3871550d630aac1bcb7cc80c557bdd2b",
+    "semantic_hash": "3871550d630aac1bcb7cc80c557bdd2b"
+  },
+  "app/Models/User.php": {
+    "mtime": 1789462707.23609,
+    "ast_hash": "36f7ad9a8b21fc2927c5afbb33d74904",
+    "semantic_hash": "36f7ad9a8b21fc2927c5afbb33d74904"
+  },
+  "app/Providers/AppServiceProvider.php": {
+    "mtime": 1789458600.7152581,
+    "ast_hash": "58808b58df9be064cf6426efca380169",
+    "semantic_hash": "58808b58df9be064cf6426efca380169"
+  },
+  "app/View/Components/AppLayout.php": {
+    "mtime": 1789459314.9421368,
+    "ast_hash": "a93b4b581f6a3a4d13f4a68f93594d7f",
+    "semantic_hash": "a93b4b581f6a3a4d13f4a68f93594d7f"
+  },
+  "app/View/Components/GuestLayout.php": {
+    "mtime": 1789451358.0543292,
+    "ast_hash": "aefcd0a8c6a6a8b4d88313ff2998fbb5",
+    "semantic_hash": "aefcd0a8c6a6a8b4d88313ff2998fbb5"
+  },
+  "artisan": {
+    "mtime": 1787675219.0,
+    "ast_hash": "e66bb13691f6184c762c196427d8e685",
+    "semantic_hash": "e66bb13691f6184c762c196427d8e685"
+  },
+  "boost.json": {
+    "mtime": 1789523894.8193643,
+    "ast_hash": "1f93d071c45d219eccf060080af20139",
+    "semantic_hash": "1f93d071c45d219eccf060080af20139"
+  },
+  "bootstrap/app.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "d649649bd49673a6cc6b98c428f51e3a",
+    "semantic_hash": "d649649bd49673a6cc6b98c428f51e3a"
+  },
+  "bootstrap/providers.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "888c810b5a4720916f07aa05dd2c2dd3",
+    "semantic_hash": "888c810b5a4720916f07aa05dd2c2dd3"
+  },
+  "composer.json": {
+    "mtime": 1789523892.7212799,
+    "ast_hash": "c6fdbaebc6bb97b824d20db0e62c2173",
+    "semantic_hash": "c6fdbaebc6bb97b824d20db0e62c2173"
+  },
+  "config/app.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "8befef279da74e4a8e393cb3d59fd354",
+    "semantic_hash": "8befef279da74e4a8e393cb3d59fd354"
+  },
+  "config/auth.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "26354511ab860b301f2a3554bc388b91",
+    "semantic_hash": "26354511ab860b301f2a3554bc388b91"
+  },
+  "config/cache.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "399c7a3b4bca7e3cb9b622828682ab56",
+    "semantic_hash": "399c7a3b4bca7e3cb9b622828682ab56"
+  },
+  "config/database.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "594a01554ab7583541a8fb05a69f935f",
+    "semantic_hash": "594a01554ab7583541a8fb05a69f935f"
+  },
+  "config/filesystems.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "bde1aa1027f0448f17348dbd93f3d7ea",
+    "semantic_hash": "bde1aa1027f0448f17348dbd93f3d7ea"
+  },
+  "config/logging.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "57cabdaa04bc44810fedbea9ce77b052",
+    "semantic_hash": "57cabdaa04bc44810fedbea9ce77b052"
+  },
+  "config/mail.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "18601a927b48d38337ba2077426a7d60",
+    "semantic_hash": "18601a927b48d38337ba2077426a7d60"
+  },
+  "config/permission.php": {
+    "mtime": 1789451481.854933,
+    "ast_hash": "4e1b4f3cf77c21e8b979bc511af1d4b8",
+    "semantic_hash": "4e1b4f3cf77c21e8b979bc511af1d4b8"
+  },
+  "config/queue.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "f98ce92e7bf51db1fabaf8a30e12fc5a",
+    "semantic_hash": "f98ce92e7bf51db1fabaf8a30e12fc5a"
+  },
+  "config/services.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "918f5aa09663e375f4570301a91548f9",
+    "semantic_hash": "918f5aa09663e375f4570301a91548f9"
+  },
+  "config/session.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "5ea7169252ec3cc7fad471f5cd0d7678",
+    "semantic_hash": "5ea7169252ec3cc7fad471f5cd0d7678"
+  },
+  "database/factories/UserFactory.php": {
+    "mtime": 1789462736.4363105,
+    "ast_hash": "71a8b263772e7e31e2454e36812ad656",
+    "semantic_hash": "71a8b263772e7e31e2454e36812ad656"
+  },
+  "database/migrations/0001_01_01_000000_create_users_table.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "138280095e9d19f2ba6fb830415602e2",
+    "semantic_hash": "138280095e9d19f2ba6fb830415602e2"
+  },
+  "database/migrations/0001_01_01_000001_create_cache_table.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "6952fb360e8d8b84e6f47573e4459d48",
+    "semantic_hash": "6952fb360e8d8b84e6f47573e4459d48"
+  },
+  "database/migrations/0001_01_01_000002_create_jobs_table.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "b0603b9fa0a27473971da76bb0c42ee1",
+    "semantic_hash": "b0603b9fa0a27473971da76bb0c42ee1"
+  },
+  "database/migrations/2026_09_15_055122_create_activity_log_table.php": {
+    "mtime": 1789451481.9847412,
+    "ast_hash": "970d1ddcfbfd98a0d4d2b9a20077554d",
+    "semantic_hash": "970d1ddcfbfd98a0d4d2b9a20077554d"
+  },
+  "database/migrations/2026_09_15_055122_create_permission_tables.php": {
+    "mtime": 1789451481.85545,
+    "ast_hash": "d0ce4624021f5b3121a91c406a5f79f2",
+    "semantic_hash": "d0ce4624021f5b3121a91c406a5f79f2"
+  },
+  "database/migrations/2026_09_15_060001_create_perusahaan_table.php": {
+    "mtime": 1789451489.282815,
+    "ast_hash": "3792ddb11a80f669ec470a54d2ea8f3b",
+    "semantic_hash": "3792ddb11a80f669ec470a54d2ea8f3b"
+  },
+  "database/migrations/2026_09_15_060002_create_pelanggan_table.php": {
+    "mtime": 1789451496.9473817,
+    "ast_hash": "f231aa7814abab9f41a3abd3894c6967",
+    "semantic_hash": "f231aa7814abab9f41a3abd3894c6967"
+  },
+  "database/migrations/2026_09_15_060003_create_kategori_produk_table.php": {
+    "mtime": 1789451503.534865,
+    "ast_hash": "c62073bba7b092a89667f4109478948b",
+    "semantic_hash": "c62073bba7b092a89667f4109478948b"
+  },
+  "database/migrations/2026_09_15_060004_create_produk_table.php": {
+    "mtime": 1789451512.1984727,
+    "ast_hash": "985e25b24495cf426e2d7bc464a9d8ea",
+    "semantic_hash": "985e25b24495cf426e2d7bc464a9d8ea"
+  },
+  "database/migrations/2026_09_15_060005_create_pengaturan_pajak_table.php": {
+    "mtime": 1789451519.8597405,
+    "ast_hash": "75bc99e0f2d9648b0d7596f7146d725f",
+    "semantic_hash": "75bc99e0f2d9648b0d7596f7146d725f"
+  },
+  "database/migrations/2026_09_15_060006_create_tiket_servis_table.php": {
+    "mtime": 1789456100.3082063,
+    "ast_hash": "de32585eec9ce52593d644df5505f085",
+    "semantic_hash": "de32585eec9ce52593d644df5505f085"
+  },
+  "database/migrations/2026_09_15_060007_create_riwayat_status_tiket_table.php": {
+    "mtime": 1789451537.31883,
+    "ast_hash": "0165c53cc855e8c8ff4f8f6978aa617d",
+    "semantic_hash": "0165c53cc855e8c8ff4f8f6978aa617d"
+  },
+  "database/migrations/2026_09_15_060008_create_dokumentasi_unit_table.php": {
+    "mtime": 1789451545.6820576,
+    "ast_hash": "6032eb1f25a9fce6f1edb77e1eca2558",
+    "semantic_hash": "6032eb1f25a9fce6f1edb77e1eca2558"
+  },
+  "database/migrations/2026_09_15_060009_create_invoice_table.php": {
+    "mtime": 1789456395.6974874,
+    "ast_hash": "3a11fb9ddc1cbfb8a740186e36a969d0",
+    "semantic_hash": "3a11fb9ddc1cbfb8a740186e36a969d0"
+  },
+  "database/migrations/2026_09_15_060010_create_detail_invoice_table.php": {
+    "mtime": 1789456409.6321585,
+    "ast_hash": "b4d8e580c7aedf643959d02d762ed14d",
+    "semantic_hash": "b4d8e580c7aedf643959d02d762ed14d"
+  },
+  "database/migrations/2026_09_15_060011_create_pembayaran_table.php": {
+    "mtime": 1789451572.5402575,
+    "ast_hash": "a546bae3bb68c32aa3fab6fae10e2b5b",
+    "semantic_hash": "a546bae3bb68c32aa3fab6fae10e2b5b"
+  },
+  "database/migrations/2026_09_15_060012_create_pengeluaran_table.php": {
+    "mtime": 1789451581.6577868,
+    "ast_hash": "692e57ace564f3fab2aee1db8fd1b593",
+    "semantic_hash": "692e57ace564f3fab2aee1db8fd1b593"
+  },
+  "database/migrations/2026_09_15_060013_create_pengaturan_aplikasi_table.php": {
+    "mtime": 1789451588.834391,
+    "ast_hash": "8c043b5501d3ecbbafc3c56744d40950",
+    "semantic_hash": "8c043b5501d3ecbbafc3c56744d40950"
+  },
+  "database/migrations/2026_09_15_070000_add_estimasi_and_kelengkapan_to_tiket_servis_table.php": {
+    "mtime": 1789456149.2089987,
+    "ast_hash": "455628a1efb4b6976e442956926f836c",
+    "semantic_hash": "455628a1efb4b6976e442956926f836c"
+  },
+  "database/migrations/2026_09_15_071000_make_tiket_and_produk_nullable_in_invoices.php": {
+    "mtime": 1789456383.319735,
+    "ast_hash": "df4a46ab78f0c97822f7fbf12522abcf",
+    "semantic_hash": "df4a46ab78f0c97822f7fbf12522abcf"
+  },
+  "database/migrations/2026_09_15_072000_add_biaya_final_to_tiket_servis_table.php": {
+    "mtime": 1789457677.9511807,
+    "ast_hash": "f7a50d2a0b58f71a69a18975fb25424b",
+    "semantic_hash": "f7a50d2a0b58f71a69a18975fb25424b"
+  },
+  "database/migrations/2026_09_15_080000_add_username_to_users_table.php": {
+    "mtime": 1789462621.5352576,
+    "ast_hash": "c95a61cb6375adba817845c0c525f8d3",
+    "semantic_hash": "c95a61cb6375adba817845c0c525f8d3"
+  },
+  "database/migrations/2026_09_16_021406_add_threshold_rules_to_pengaturan_pajak_table.php": {
+    "mtime": 1789524852.3845267,
+    "ast_hash": "e61070087c6ab1b4516a66ce68dff271",
+    "semantic_hash": "e61070087c6ab1b4516a66ce68dff271"
+  },
+  "database/seeders/DatabaseSeeder.php": {
+    "mtime": 1789525120.545708,
+    "ast_hash": "89782f45e171d65bed2456f176406c21",
+    "semantic_hash": "89782f45e171d65bed2456f176406c21"
+  },
+  "opencode.json": {
+    "mtime": 1789523894.8177059,
+    "ast_hash": "b98ead951b66dda75435782f0212f5f6",
+    "semantic_hash": "b98ead951b66dda75435782f0212f5f6"
+  },
+  "package.json": {
+    "mtime": 1789451358.047582,
+    "ast_hash": "574d3f9ced554cc290162e831c6f9d39",
+    "semantic_hash": "574d3f9ced554cc290162e831c6f9d39"
+  },
+  "postcss.config.js": {
+    "mtime": 1789451358.0558538,
+    "ast_hash": "40617f13f9f0033c23f7830f6344cfd8",
+    "semantic_hash": "40617f13f9f0033c23f7830f6344cfd8"
+  },
+  "public/index.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "d8eda274115af5fd2aaa8230af329ef7",
+    "semantic_hash": "d8eda274115af5fd2aaa8230af329ef7"
+  },
+  "resources/js/app.js": {
+    "mtime": 1789451358.0561843,
+    "ast_hash": "fddcb6f734f9b42c2385b65a73ecdde0",
+    "semantic_hash": "fddcb6f734f9b42c2385b65a73ecdde0"
+  },
+  "resources/views/auth/confirm-password.blade.php": {
+    "mtime": 1789451358.0522866,
+    "ast_hash": "3257561582b0f322668ba76a7eefd389",
+    "semantic_hash": "3257561582b0f322668ba76a7eefd389"
+  },
+  "resources/views/auth/forgot-password.blade.php": {
+    "mtime": 1789451358.052359,
+    "ast_hash": "7187c08d038738c11554cf373ebf0fb6",
+    "semantic_hash": "7187c08d038738c11554cf373ebf0fb6"
+  },
+  "resources/views/auth/login.blade.php": {
+    "mtime": 1789524021.7123122,
+    "ast_hash": "bd934a78733cf870db46095e1c0f4169",
+    "semantic_hash": "bd934a78733cf870db46095e1c0f4169"
+  },
+  "resources/views/auth/register.blade.php": {
+    "mtime": 1789451358.0522165,
+    "ast_hash": "6f634a2a65e149e1f1ff50dec23d2eb0",
+    "semantic_hash": "6f634a2a65e149e1f1ff50dec23d2eb0"
+  },
+  "resources/views/auth/reset-password.blade.php": {
+    "mtime": 1789451358.0521278,
+    "ast_hash": "26ea6cc5e943936ca8c60d2d54261961",
+    "semantic_hash": "26ea6cc5e943936ca8c60d2d54261961"
+  },
+  "resources/views/auth/verify-email.blade.php": {
+    "mtime": 1789451358.05243,
+    "ast_hash": "12bbb06a84fdacd09f21b16f4ba38de7",
+    "semantic_hash": "12bbb06a84fdacd09f21b16f4ba38de7"
+  },
+  "resources/views/components/application-logo.blade.php": {
+    "mtime": 1789451358.0528588,
+    "ast_hash": "1c7db1416aaa6b22f1bdd9035b504b70",
+    "semantic_hash": "1c7db1416aaa6b22f1bdd9035b504b70"
+  },
+  "resources/views/components/auth-session-status.blade.php": {
+    "mtime": 1789451358.0533028,
+    "ast_hash": "f218fe6e9c1865c2ccf8ab8936e03fbc",
+    "semantic_hash": "f218fe6e9c1865c2ccf8ab8936e03fbc"
+  },
+  "resources/views/components/danger-button.blade.php": {
+    "mtime": 1789451358.0532444,
+    "ast_hash": "c942cac6317d5bf292753c74e39a0740",
+    "semantic_hash": "c942cac6317d5bf292753c74e39a0740"
+  },
+  "resources/views/components/dropdown-link.blade.php": {
+    "mtime": 1789451358.0525916,
+    "ast_hash": "1442d4ec7334419096ceb677e753e0cf",
+    "semantic_hash": "1442d4ec7334419096ceb677e753e0cf"
+  },
+  "resources/views/components/dropdown.blade.php": {
+    "mtime": 1789451358.0531197,
+    "ast_hash": "744fbaf442e81ebbf5819ae9432761df",
+    "semantic_hash": "744fbaf442e81ebbf5819ae9432761df"
+  },
+  "resources/views/components/input-error.blade.php": {
+    "mtime": 1789451358.0530503,
+    "ast_hash": "cbe33d64f94575b76267cbb6878e88d8",
+    "semantic_hash": "cbe33d64f94575b76267cbb6878e88d8"
+  },
+  "resources/views/components/input-label.blade.php": {
+    "mtime": 1789451358.0529895,
+    "ast_hash": "9e713254eb286b92e50de032b4f1e2e4",
+    "semantic_hash": "9e713254eb286b92e50de032b4f1e2e4"
+  },
+  "resources/views/components/modal.blade.php": {
+    "mtime": 1789451358.0533829,
+    "ast_hash": "030dab9aaf050f44bee40532fc5b906a",
+    "semantic_hash": "030dab9aaf050f44bee40532fc5b906a"
+  },
+  "resources/views/components/nav-link.blade.php": {
+    "mtime": 1789451358.0529282,
+    "ast_hash": "2e3873c46196df715f42705950a1ade7",
+    "semantic_hash": "2e3873c46196df715f42705950a1ade7"
+  },
+  "resources/views/components/primary-button.blade.php": {
+    "mtime": 1789451358.0526595,
+    "ast_hash": "a9e11d81e853e101adb1964e74241686",
+    "semantic_hash": "a9e11d81e853e101adb1964e74241686"
+  },
+  "resources/views/components/responsive-nav-link.blade.php": {
+    "mtime": 1789451358.053184,
+    "ast_hash": "7c294b1357fef2bde22c49f5eb379f02",
+    "semantic_hash": "7c294b1357fef2bde22c49f5eb379f02"
+  },
+  "resources/views/components/secondary-button.blade.php": {
+    "mtime": 1789451358.0527277,
+    "ast_hash": "0bba7f2251160081062a1085be9dd117",
+    "semantic_hash": "0bba7f2251160081062a1085be9dd117"
+  },
+  "resources/views/components/sidebar-group.blade.php": {
+    "mtime": 1789454013.5449042,
+    "ast_hash": "13d906b5c0d945d553a6bc1fdbd36d1e",
+    "semantic_hash": "13d906b5c0d945d553a6bc1fdbd36d1e"
+  },
+  "resources/views/components/sidebar-link.blade.php": {
+    "mtime": 1789452644.6527152,
+    "ast_hash": "22ff2e6dac71b972ab5c249ffd8f925c",
+    "semantic_hash": "22ff2e6dac71b972ab5c249ffd8f925c"
+  },
+  "resources/views/components/sidebar-sublink.blade.php": {
+    "mtime": 1789454000.7012863,
+    "ast_hash": "c366e73e1d6ce33996315093ecac8aff",
+    "semantic_hash": "c366e73e1d6ce33996315093ecac8aff"
+  },
+  "resources/views/components/text-input.blade.php": {
+    "mtime": 1789451358.0527964,
+    "ast_hash": "1dae0e9813a545adc0dfad19320eca02",
+    "semantic_hash": "1dae0e9813a545adc0dfad19320eca02"
+  },
+  "resources/views/dashboard.blade.php": {
+    "mtime": 1789460855.016152,
+    "ast_hash": "6190ae49225d68f048d568a223b99eb0",
+    "semantic_hash": "6190ae49225d68f048d568a223b99eb0"
+  },
+  "resources/views/invoice/create.blade.php": {
+    "mtime": 1789524997.1287332,
+    "ast_hash": "57280625f419edb653afaee744eef36f",
+    "semantic_hash": "57280625f419edb653afaee744eef36f"
+  },
+  "resources/views/invoice/index.blade.php": {
+    "mtime": 1789453341.5677955,
+    "ast_hash": "7ecab7edbdb1ec6abc43f12fa3ee36bf",
+    "semantic_hash": "7ecab7edbdb1ec6abc43f12fa3ee36bf"
+  },
+  "resources/views/invoice/pdf.blade.php": {
+    "mtime": 1789525015.774588,
+    "ast_hash": "4372987a41880cb2ba4885147a67e873",
+    "semantic_hash": "4372987a41880cb2ba4885147a67e873"
+  },
+  "resources/views/invoice/show.blade.php": {
+    "mtime": 1789525007.665629,
+    "ast_hash": "b497a1ac51b9dc5200b8002c7a6ed332",
+    "semantic_hash": "b497a1ac51b9dc5200b8002c7a6ed332"
+  },
+  "resources/views/kategori-produk/create.blade.php": {
+    "mtime": 1789452761.8749287,
+    "ast_hash": "932e39edb19c0814216e39025876fa07",
+    "semantic_hash": "932e39edb19c0814216e39025876fa07"
+  },
+  "resources/views/kategori-produk/edit.blade.php": {
+    "mtime": 1789452768.5573227,
+    "ast_hash": "12231f268bd78e1588e55121f9da8b66",
+    "semantic_hash": "12231f268bd78e1588e55121f9da8b66"
+  },
+  "resources/views/kategori-produk/index.blade.php": {
+    "mtime": 1789461972.707483,
+    "ast_hash": "124e6c3457e23d5951389aa7c64f0ca9",
+    "semantic_hash": "124e6c3457e23d5951389aa7c64f0ca9"
+  },
+  "resources/views/laporan/invoice.blade.php": {
+    "mtime": 1789452960.3819866,
+    "ast_hash": "de5cc4b8c41bae23b989f5229031461b",
+    "semantic_hash": "de5cc4b8c41bae23b989f5229031461b"
+  },
+  "resources/views/laporan/laba-rugi.blade.php": {
+    "mtime": 1789453022.0762784,
+    "ast_hash": "b9cb117e90a4030734982671f7b42edf",
+    "semantic_hash": "b9cb117e90a4030734982671f7b42edf"
+  },
+  "resources/views/laporan/tiket.blade.php": {
+    "mtime": 1789452969.8865473,
+    "ast_hash": "300b6450bd3b767523089d9194594dd5",
+    "semantic_hash": "300b6450bd3b767523089d9194594dd5"
+  },
+  "resources/views/layouts/app.blade.php": {
+    "mtime": 1789525734.2803893,
+    "ast_hash": "506f9922f59b0cb8b0f1051529ce0652",
+    "semantic_hash": "506f9922f59b0cb8b0f1051529ce0652"
+  },
+  "resources/views/layouts/guest.blade.php": {
+    "mtime": 1789452569.446901,
+    "ast_hash": "2964c298f7fb4dcd91b02aaf2c063737",
+    "semantic_hash": "2964c298f7fb4dcd91b02aaf2c063737"
+  },
+  "resources/views/layouts/navigation.blade.php": {
+    "mtime": 1789451358.0539398,
+    "ast_hash": "71e060969bea1bef82c06b894ecf5ed5",
+    "semantic_hash": "71e060969bea1bef82c06b894ecf5ed5"
+  },
+  "resources/views/pelanggan/create.blade.php": {
+    "mtime": 1789452729.2835333,
+    "ast_hash": "c16fa4a0ad5c8024b406e90935be25f6",
+    "semantic_hash": "c16fa4a0ad5c8024b406e90935be25f6"
+  },
+  "resources/views/pelanggan/edit.blade.php": {
+    "mtime": 1789452736.8646255,
+    "ast_hash": "50735d95acd7c8c310dccdd68de37875",
+    "semantic_hash": "50735d95acd7c8c310dccdd68de37875"
+  },
+  "resources/views/pelanggan/index.blade.php": {
+    "mtime": 1789452721.7688823,
+    "ast_hash": "d0cedb966c19503113b17d731542b953",
+    "semantic_hash": "d0cedb966c19503113b17d731542b953"
+  },
+  "resources/views/pelanggan/show.blade.php": {
+    "mtime": 1789452746.3675106,
+    "ast_hash": "577f3c708b01730d19fa3304bc03d7d1",
+    "semantic_hash": "577f3c708b01730d19fa3304bc03d7d1"
+  },
+  "resources/views/pengaturan/pajak/create.blade.php": {
+    "mtime": 1789524941.3712714,
+    "ast_hash": "27c68b052b0a4b2c3fb852800e65ae6f",
+    "semantic_hash": "27c68b052b0a4b2c3fb852800e65ae6f"
+  },
+  "resources/views/pengaturan/pajak/edit.blade.php": {
+    "mtime": 1789524952.4924328,
+    "ast_hash": "8067803aadaf1e53f249383d7d555ad5",
+    "semantic_hash": "8067803aadaf1e53f249383d7d555ad5"
+  },
+  "resources/views/pengaturan/pajak/index.blade.php": {
+    "mtime": 1789524929.4237716,
+    "ast_hash": "648a36a6c80862dbb78c4bea1357e9bf",
+    "semantic_hash": "648a36a6c80862dbb78c4bea1357e9bf"
+  },
+  "resources/views/pengaturan/perusahaan.blade.php": {
+    "mtime": 1789453260.8547873,
+    "ast_hash": "11ace801a61a1d31513389f907a49e3f",
+    "semantic_hash": "11ace801a61a1d31513389f907a49e3f"
+  },
+  "resources/views/pengeluaran/create.blade.php": {
+    "mtime": 1789453000.8061903,
+    "ast_hash": "45d22fcd84acf8d7548f0e4a1e6d6cd7",
+    "semantic_hash": "45d22fcd84acf8d7548f0e4a1e6d6cd7"
+  },
+  "resources/views/pengeluaran/edit.blade.php": {
+    "mtime": 1789453011.5656025,
+    "ast_hash": "88273bccf0b06df72cdc142d97028010",
+    "semantic_hash": "88273bccf0b06df72cdc142d97028010"
+  },
+  "resources/views/pengeluaran/index.blade.php": {
+    "mtime": 1789452991.193201,
+    "ast_hash": "239d5c980a90d7976c5e526b42abc206",
+    "semantic_hash": "239d5c980a90d7976c5e526b42abc206"
+  },
+  "resources/views/produk/create.blade.php": {
+    "mtime": 1789453412.582797,
+    "ast_hash": "cbfafe4d687913a0b3a222caea25facb",
+    "semantic_hash": "cbfafe4d687913a0b3a222caea25facb"
+  },
+  "resources/views/produk/edit.blade.php": {
+    "mtime": 1789453421.482717,
+    "ast_hash": "1c26846c062438235c9befa8f4cfc581",
+    "semantic_hash": "1c26846c062438235c9befa8f4cfc581"
+  },
+  "resources/views/produk/index.blade.php": {
+    "mtime": 1789453403.6523802,
+    "ast_hash": "d674d13dceedad3b7b0a43a846518f47",
+    "semantic_hash": "d674d13dceedad3b7b0a43a846518f47"
+  },
+  "resources/views/profile/edit.blade.php": {
+    "mtime": 1789454053.86444,
+    "ast_hash": "75ec738dc81ef19f0e0cccc6d711711f",
+    "semantic_hash": "75ec738dc81ef19f0e0cccc6d711711f"
+  },
+  "resources/views/profile/partials/delete-user-form.blade.php": {
+    "mtime": 1789451358.0536528,
+    "ast_hash": "a25eb31697fd304c08564761caf78b3d",
+    "semantic_hash": "a25eb31697fd304c08564761caf78b3d"
+  },
+  "resources/views/profile/partials/update-password-form.blade.php": {
+    "mtime": 1789451358.0537298,
+    "ast_hash": "3249c195fce50ee8c31383658684ad22",
+    "semantic_hash": "3249c195fce50ee8c31383658684ad22"
+  },
+  "resources/views/profile/partials/update-profile-information-form.blade.php": {
+    "mtime": 1789524050.018992,
+    "ast_hash": "308b8c9760cce64f5d2d1f3fc3dedc20",
+    "semantic_hash": "308b8c9760cce64f5d2d1f3fc3dedc20"
+  },
+  "resources/views/tiket-servis/create.blade.php": {
+    "mtime": 1789452828.492544,
+    "ast_hash": "4401f545163a7d778bbbc7238e95e5bc",
+    "semantic_hash": "4401f545163a7d778bbbc7238e95e5bc"
+  },
+  "resources/views/tiket-servis/edit.blade.php": {
+    "mtime": 1789452838.0087438,
+    "ast_hash": "57b19374550cc4aab6ce6f2ef3bee1d4",
+    "semantic_hash": "57b19374550cc4aab6ce6f2ef3bee1d4"
+  },
+  "resources/views/tiket-servis/index.blade.php": {
+    "mtime": 1789452817.6844177,
+    "ast_hash": "b3fea9e545794a7b4ecbecffc106d8af",
+    "semantic_hash": "b3fea9e545794a7b4ecbecffc106d8af"
+  },
+  "resources/views/tiket-servis/show.blade.php": {
+    "mtime": 1789525767.264471,
+    "ast_hash": "559081a5d16740400e600cac1f8c8cda",
+    "semantic_hash": "559081a5d16740400e600cac1f8c8cda"
+  },
+  "resources/views/tiket-servis/tanda-terima-pdf.blade.php": {
+    "mtime": 1789524414.665773,
+    "ast_hash": "02757ee2f46a5bb37b3234603554fd98",
+    "semantic_hash": "02757ee2f46a5bb37b3234603554fd98"
+  },
+  "resources/views/users/create.blade.php": {
+    "mtime": 1789524060.6244414,
+    "ast_hash": "11ef6ab734d2804174fc780d306a1c40",
+    "semantic_hash": "11ef6ab734d2804174fc780d306a1c40"
+  },
+  "resources/views/users/edit.blade.php": {
+    "mtime": 1789524072.2180169,
+    "ast_hash": "99bdbabf550c44d3e3604c7b26005fbf",
+    "semantic_hash": "99bdbabf550c44d3e3604c7b26005fbf"
+  },
+  "resources/views/users/index.blade.php": {
+    "mtime": 1789524091.3895981,
+    "ast_hash": "d8c95424550049b3d1ed6041a58f20e1",
+    "semantic_hash": "d8c95424550049b3d1ed6041a58f20e1"
+  },
+  "resources/views/welcome.blade.php": {
+    "mtime": 1789451358.055562,
+    "ast_hash": "1a03818ea91deb4f3989c6c994e5867c",
+    "semantic_hash": "1a03818ea91deb4f3989c6c994e5867c"
+  },
+  "routes/auth.php": {
+    "mtime": 1789451358.0553157,
+    "ast_hash": "c230bc31e814bcfa0553ff5935e0c4e4",
+    "semantic_hash": "c230bc31e814bcfa0553ff5935e0c4e4"
+  },
+  "routes/console.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "3c6ce2e6d16444282b24a9aa63885563",
+    "semantic_hash": "3c6ce2e6d16444282b24a9aa63885563"
+  },
+  "routes/web.php": {
+    "mtime": 1789525723.9324446,
+    "ast_hash": "9ac98552f414bff1faa98a6f191151de",
+    "semantic_hash": "9ac98552f414bff1faa98a6f191151de"
+  },
+  "tailwind.config.js": {
+    "mtime": 1789451358.055748,
+    "ast_hash": "dd4bf1ba753a8d6ff773105a67189a13",
+    "semantic_hash": "dd4bf1ba753a8d6ff773105a67189a13"
+  },
+  "tests/Feature/Auth/AuthenticationTest.php": {
+    "mtime": 1789524098.8735614,
+    "ast_hash": "d05e0fd947f1864241b77a2046c290e0",
+    "semantic_hash": "d05e0fd947f1864241b77a2046c290e0"
+  },
+  "tests/Feature/Auth/EmailVerificationTest.php": {
+    "mtime": 1789451358.0547922,
+    "ast_hash": "e915962621a2ef317d25e617e3a51282",
+    "semantic_hash": "e915962621a2ef317d25e617e3a51282"
+  },
+  "tests/Feature/Auth/PasswordConfirmationTest.php": {
+    "mtime": 1789451358.05471,
+    "ast_hash": "09d4aff025e225f393864cfad9401b1a",
+    "semantic_hash": "09d4aff025e225f393864cfad9401b1a"
+  },
+  "tests/Feature/Auth/PasswordResetTest.php": {
+    "mtime": 1789451358.05514,
+    "ast_hash": "095a86f1a541cae609d0696adda02d51",
+    "semantic_hash": "095a86f1a541cae609d0696adda02d51"
+  },
+  "tests/Feature/Auth/PasswordUpdateTest.php": {
+    "mtime": 1789451358.054881,
+    "ast_hash": "26ae197fdda088a1dfe448d3a79f81cf",
+    "semantic_hash": "26ae197fdda088a1dfe448d3a79f81cf"
+  },
+  "tests/Feature/Auth/RegistrationTest.php": {
+    "mtime": 1789451358.0549717,
+    "ast_hash": "90929d409ed44dba900a800318ceffc6",
+    "semantic_hash": "90929d409ed44dba900a800318ceffc6"
+  },
+  "tests/Feature/ExampleTest.php": {
+    "mtime": 1789453573.7419784,
+    "ast_hash": "ba532d06d248a94482543506ceeeff03",
+    "semantic_hash": "ba532d06d248a94482543506ceeeff03"
+  },
+  "tests/Feature/ProfileTest.php": {
+    "mtime": 1789451358.05456,
+    "ast_hash": "198cba3e6561abe548cc34787a312e44",
+    "semantic_hash": "198cba3e6561abe548cc34787a312e44"
+  },
+  "tests/Feature/UIFlowTest.php": {
+    "mtime": 1789525120.6540895,
+    "ast_hash": "de5f212599bb69239ff9dc1cac96cdbf",
+    "semantic_hash": "de5f212599bb69239ff9dc1cac96cdbf"
+  },
+  "tests/TestCase.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "7e567dc27e68d5b57bae16af07f68907",
+    "semantic_hash": "7e567dc27e68d5b57bae16af07f68907"
+  },
+  "tests/Unit/ExampleTest.php": {
+    "mtime": 1787675219.0,
+    "ast_hash": "3f679e9508c834f0ad95943455fcd836",
+    "semantic_hash": "3f679e9508c834f0ad95943455fcd836"
+  },
+  "vite.config.js": {
+    "mtime": 1789451358.0559313,
+    "ast_hash": "804b9fdf6105c34a0a14bed82a9d6026",
+    "semantic_hash": "804b9fdf6105c34a0a14bed82a9d6026"
+  }
+}
