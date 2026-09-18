@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "app/Providers/AppServiceProvider.php": {
-    "mtime": 1789700567.524371,
-    "ast_hash": "1913a7b20410b4e7acff91516fc13388",
+    "mtime": 1789704879.377139,
+    "ast_hash": "0a78df25d0959d58621972c861342870",
     "semantic_hash": ""
   },
   "app/View/Components/AppLayout.php": {
