@@ -59,7 +59,7 @@
             <div class="bg-gradient-to-br from-indigo-900 to-slate-950 rounded-2xl p-5 text-white border border-indigo-900/50 shadow-sm">
                 <p class="text-xs font-semibold text-indigo-300">Total Tiket Servis</p>
                 <p class="text-3xl font-black text-white mt-1">{{ $pelanggan->tiketServis->count() }}</p>
-                <p class="text-xs text-slate-400 mt-1">Perangkat yang pernah diservis di Cekat Cell</p>
+                <p class="text-xs text-slate-400 mt-1">Perangkat yang pernah diservis di {{ $appPerusahaan?->nama_perusahaan ?? 'toko ini' }}</p>
             </div>
         </div>
 

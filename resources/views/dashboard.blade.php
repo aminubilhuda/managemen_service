@@ -10,7 +10,7 @@
             <div>
                 <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold mb-2 border border-indigo-500/30">
                     <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-                    {{ $appPerusahaan?->nama_perusahaan ?? 'Cekat Cell' }} • Sistem Aktif
+                    {{ $appPerusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko') }} • Sistem Aktif
                 </div>
                 <h2 class="text-xl sm:text-2xl font-black tracking-tight text-white">
                     Halo, {{ Auth::user()->name }}

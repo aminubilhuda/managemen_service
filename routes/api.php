@@ -11,6 +11,7 @@ use App\Http\Controllers\Api\V1\PembayaranController;
 use App\Http\Controllers\Api\V1\PengeluaranController;
 use App\Http\Controllers\Api\V1\ProdukController;
 use App\Http\Controllers\Api\V1\TiketServisController;
+use App\Models\Perusahaan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,7 +22,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('v1')->group(function () {
 
-    // 1. Autentikasi Publik
+    // 1. Publik / Health Check
+    Route::get('/ping', function () {
+        return response()->json([
+            'status' => 'success',
+            'message' => 'API '.(Perusahaan::first()?->nama_perusahaan ?? config('app.name', 'Toko')).' siap digunakan.',
+            'server_time' => now()->toDateTimeString(),
+        ]);
+    });
     Route::post('/auth/login', [AuthController::class, 'login']);
 
     // 2. Protected Routes (Harus menyertakan Bearer Token)

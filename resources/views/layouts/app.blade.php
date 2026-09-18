@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ $title ?? 'Dashboard' }} — {{ $appPerusahaan?->nama_perusahaan ?? config('app.name', 'Cekat Cell ERP') }}</title>
+        <title>{{ $title ?? 'Dashboard' }} — {{ $appPerusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko') }}</title>
 
         <!-- Fonts: Plus Jakarta Sans -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,6 +34,20 @@
             ::-webkit-scrollbar-thumb:hover {
                 background: #94a3b8;
             }
+            /* Dark sleek scrollbar for sidebar */
+            .sidebar-scroll::-webkit-scrollbar {
+                width: 4px;
+            }
+            .sidebar-scroll::-webkit-scrollbar-track {
+                background: transparent;
+            }
+            .sidebar-scroll::-webkit-scrollbar-thumb {
+                background: #334155;
+                border-radius: 9999px;
+            }
+            .sidebar-scroll::-webkit-scrollbar-thumb:hover {
+                background: #475569;
+            }
         </style>
 
         @stack('styles')
@@ -55,13 +69,13 @@
 
             <!-- Sidebar -->
             <aside :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full'"
-                   class="fixed inset-y-0 left-0 z-50 w-72 bg-slate-950 text-white transform transition-transform duration-300 ease-in-out lg:translate-x-0 lg:static lg:inset-auto lg:z-auto flex flex-col border-r border-slate-800/80 shadow-2xl lg:shadow-none">
+                   class="fixed inset-y-0 left-0 z-50 w-72 bg-slate-950 text-white transform transition-transform duration-300 ease-in-out lg:translate-x-0 lg:sticky lg:top-0 lg:h-screen lg:shrink-0 lg:self-start flex flex-col border-r border-slate-800/80 shadow-2xl lg:shadow-none">
 
                 <!-- Logo & Brand -->
-                <div class="p-5 border-b border-slate-800/80 flex items-center justify-between">
+                <div class="p-5 border-b border-slate-800/80 flex items-center justify-between shrink-0">
                     @php
                         $appPerusahaan = $appPerusahaan ?? \App\Models\Perusahaan::first();
-                        $namaToko = $appPerusahaan?->nama_perusahaan ?? 'Cekat Cell';
+                        $namaToko = $appPerusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko');
                         $words = array_values(array_filter(explode(' ', trim($namaToko))));
                         $inisial = count($words) >= 2 
                             ? strtoupper(substr($words[0], 0, 1) . substr($words[1], 0, 1))
@@ -84,7 +98,7 @@
                                 </h1>
                                 <span class="w-2 h-2 rounded-full bg-emerald-400 shadow-sm shadow-emerald-400 shrink-0"></span>
                             </div>
-                            <p class="text-[11px] font-medium text-slate-400 truncate">Service Center ERP</p>
+                            <p class="text-[11px] font-medium text-slate-400 truncate">{{ $appPerusahaan?->deskripsi ?? 'Service Center ERP' }}</p>
                         </div>
                     </a>
                     <button @click="sidebarOpen = false" class="lg:hidden p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 shrink-0 ml-2">
@@ -93,7 +107,7 @@
                 </div>
 
                 <!-- Navigation -->
-                <nav class="flex-1 px-3 py-3 space-y-1.5 overflow-y-auto">
+                <nav class="flex-1 px-3 py-3 space-y-1.5 overflow-y-auto sidebar-scroll">
                     <p class="px-3 text-[10px] font-extrabold text-slate-500 uppercase tracking-wider mb-1">Utama</p>
 
                     <x-sidebar-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" icon="home">
@@ -181,7 +195,7 @@
                 </nav>
 
                 <!-- User Footer Card -->
-                <div class="p-3 border-t border-slate-800/80 bg-slate-900/40">
+                <div class="p-3 border-t border-slate-800/80 bg-slate-900/40 shrink-0">
                     <div class="flex items-center gap-2.5 p-2 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-700 transition">
                         <a href="{{ route('profile.edit') }}" class="flex items-center gap-2.5 min-w-0 flex-1 group" title="Buka Profil Saya">
                             <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 via-blue-500 to-cyan-500 flex items-center justify-center text-white font-bold text-xs shadow-sm group-hover:scale-105 transition-transform shrink-0">

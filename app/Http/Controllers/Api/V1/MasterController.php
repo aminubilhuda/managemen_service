@@ -24,9 +24,11 @@ class MasterController extends Controller
 
         return $this->successResponse([
             'id' => $perusahaan?->id,
-            'nama_perusahaan' => $perusahaan?->nama_perusahaan ?? 'Cekat Cell',
+            'nama_perusahaan' => $perusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko'),
+            'deskripsi' => $perusahaan?->deskripsi,
             'alamat' => $perusahaan?->alamat ?? '-',
             'telp' => $perusahaan?->telp ?? '-',
+            'email' => $perusahaan?->email,
             'logo_url' => $perusahaan?->logo ? asset('storage/'.$perusahaan->logo) : null,
         ], 'Data profil toko berhasil dimuat.');
     }

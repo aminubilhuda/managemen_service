@@ -37,7 +37,7 @@
                         Alamat Email <span class="text-rose-500">*</span>
                     </label>
                     <input type="email" name="email" id="email" value="{{ old('email') }}" required
-                           placeholder="rian@cekatcell.com"
+                           placeholder="staf@email.com"
                            class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition @error('email') border-rose-500 @enderror">
                     @error('email')
                         <p class="text-xs text-rose-500 mt-1.5">{{ $message }}</p>

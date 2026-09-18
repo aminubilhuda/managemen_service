@@ -26,7 +26,7 @@
     <!-- Executive Statement Sheet -->
     <div class="max-w-4xl bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-10 shadow-sm mb-8">
         <div class="text-center pb-6 border-b border-slate-200">
-            <h3 class="text-xl font-black text-slate-900">Cekat Cell Service ERP</h3>
+            <h3 class="text-xl font-black text-slate-900">{{ $appPerusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko') }}</h3>
             <p class="text-sm font-bold text-indigo-600 uppercase tracking-wider mt-0.5">Laporan Laba Rugi Operasional</p>
             <p class="text-xs text-slate-400 mt-1">Periode: {{ Carbon\Carbon::parse($bulan)->translatedFormat('F Y') }}</p>
         </div>

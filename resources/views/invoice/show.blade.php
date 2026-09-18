@@ -128,13 +128,13 @@
                         </div>
                         <div>
                             <h2 class="text-xl sm:text-2xl font-black text-slate-900 leading-tight">
-                                {{ $perusahaan?->nama_perusahaan ?? 'Cekat Cell' }}
+                                {{ $perusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko') }}
                             </h2>
                             <p class="text-xs text-slate-500 mt-1 max-w-xs leading-relaxed">
-                                {{ $perusahaan?->alamat ?? 'Jl. Kebangsaan, No. 45, Jakarta Utara' }}
+                                {{ $perusahaan?->alamat ?? '-' }}
                             </p>
                             <p class="text-xs text-slate-600 font-semibold mt-0.5">
-                                {{ $perusahaan?->telp ?? '088898888' }}
+                                {{ $perusahaan?->telp ?? '-' }}
                             </p>
                         </div>
                     </div>
@@ -181,9 +181,9 @@
                             <h4 class="font-bold text-slate-900 text-xs sm:text-sm">Info Perusahaan</h4>
                         </div>
                         <div class="text-xs text-slate-600 space-y-0.5 leading-relaxed">
-                            <p class="font-bold text-slate-900 text-sm">{{ $invoice->perusahaan?->nama_perusahaan ?? 'Cekat Cell' }}</p>
-                            <p>{{ $invoice->perusahaan?->alamat ?? 'Jl. Kebangsaan, No. 45, Jakarta Utara' }}</p>
-                            <p class="text-slate-700">Telp: {{ $invoice->perusahaan?->telp ?? '088898888' }}</p>
+                            <p class="font-bold text-slate-900 text-sm">{{ $invoice->perusahaan?->nama_perusahaan ?? ($perusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko')) }}</p>
+                            <p>{{ $invoice->perusahaan?->alamat ?? ($perusahaan?->alamat ?? '-') }}</p>
+                            <p class="text-slate-700">Telp: {{ $invoice->perusahaan?->telp ?? ($perusahaan?->telp ?? '-') }}</p>
                         </div>
                     </div>
 

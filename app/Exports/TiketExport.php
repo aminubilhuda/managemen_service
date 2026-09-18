@@ -90,7 +90,7 @@ class TiketExport implements FromCollection, ShouldAutoSize, WithColumnFormattin
     public function styles(Worksheet $sheet): array
     {
         $perusahaan = Perusahaan::first();
-        $namaToko = $perusahaan?->nama_perusahaan ?? 'Cekat Cell';
+        $namaToko = $perusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko');
         $telpToko = $perusahaan?->telp ? 'Telp: '.$perusahaan->telp : '';
 
         // 1. Header Information Block (Rows 1 to 3)

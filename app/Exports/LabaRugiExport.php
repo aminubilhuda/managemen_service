@@ -175,7 +175,7 @@ class LabaRugiExport implements FromArray, ShouldAutoSize, WithColumnFormatting,
     public function styles(Worksheet $sheet): array
     {
         $perusahaan = Perusahaan::first();
-        $namaToko = $perusahaan?->nama_perusahaan ?? 'Cekat Cell';
+        $namaToko = $perusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko');
         $start = Carbon::parse($this->bulan)->startOfMonth();
 
         // 1. Company and Report Header (Rows 1 to 3)

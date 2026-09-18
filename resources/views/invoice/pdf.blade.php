@@ -213,9 +213,9 @@
                             @endif
                         </td>
                         <td style="vertical-align: top;">
-                            <div class="brand-title">{{ $perusahaan?->nama_perusahaan ?? 'Cekat Cell' }}</div>
-                            <div class="brand-sub">{{ $perusahaan?->alamat ?? 'Jl. Kebangsaan, No. 45, Jakarta Utara' }}</div>
-                            <div class="brand-sub">{{ $perusahaan?->telp ?? '088898888' }}</div>
+                            <div class="brand-title">{{ $perusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko') }}</div>
+                            <div class="brand-sub">{{ $perusahaan?->alamat ?? '-' }}</div>
+                            <div class="brand-sub">{{ $perusahaan?->telp ?? '-' }}</div>
                         </td>
                     </tr>
                 </table>
@@ -260,9 +260,9 @@
             <td>
                 <div class="section-title">Info Perusahaan</div>
                 <div class="info-content">
-                    <strong style="font-size: 11px; display: block; margin-bottom: 2px;">{{ $invoice->perusahaan?->nama_perusahaan ?? 'Cekat Cell' }}</strong>
-                    <div>{{ $invoice->perusahaan?->alamat ?? 'Jl. Kebangsaan, No. 45, Jakarta Utara' }}</div>
-                    <div>Telp: {{ $invoice->perusahaan?->telp ?? '088898888' }}</div>
+                    <strong style="font-size: 11px; display: block; margin-bottom: 2px;">{{ $invoice->perusahaan?->nama_perusahaan ?? ($perusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko')) }}</strong>
+                    <div>{{ $invoice->perusahaan?->alamat ?? ($perusahaan?->alamat ?? '-') }}</div>
+                    <div>Telp: {{ $invoice->perusahaan?->telp ?? ($perusahaan?->telp ?? '-') }}</div>
                 </div>
             </td>
             <td>

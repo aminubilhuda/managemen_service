@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="title">Identitas Toko & Perusahaan</x-slot>
     <x-slot name="header">Identitas Toko / Nota</x-slot>
-    <x-slot name="subtitle">Atur nama brand, alamat, kontak WhatsApp, NPWP, dan logo resmi untuk kop faktur nota</x-slot>
+    <x-slot name="subtitle">Atur nama brand, deskripsi, alamat, kontak WhatsApp, email, NPWP, dan logo resmi untuk kop faktur nota</x-slot>
 
     <div class="max-w-3xl">
         <div class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-8 shadow-sm">
@@ -14,7 +14,21 @@
                         Nama Perusahaan / Toko Servis <span class="text-rose-500">*</span>
                     </label>
                     <input type="text" name="nama_perusahaan" id="nama_perusahaan" value="{{ old('nama_perusahaan', $perusahaan->nama_perusahaan) }}" required
-                           class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm font-bold text-slate-900 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition">
+                           class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm font-bold text-slate-900 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition @error('nama_perusahaan') border-rose-500 @enderror">
+                    @error('nama_perusahaan')
+                        <p class="text-xs text-rose-500 mt-1.5">{{ $message }}</p>
+                    @enderror
+                </div>
+
+                <div>
+                    <label for="deskripsi" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                        Deskripsi / Slogan Singkat Toko
+                    </label>
+                    <textarea name="deskripsi" id="deskripsi" rows="2" placeholder="Contoh: Solusi cepat & terpercaya untuk perbaikan smartphone dan gadget..."
+                              class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition @error('deskripsi') border-rose-500 @enderror">{{ old('deskripsi', $perusahaan->deskripsi) }}</textarea>
+                    @error('deskripsi')
+                        <p class="text-xs text-rose-500 mt-1.5">{{ $message }}</p>
+                    @enderror
                 </div>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -23,17 +37,36 @@
                             Nomor Telepon / WhatsApp
                         </label>
                         <input type="text" name="telp" id="telp" value="{{ old('telp', $perusahaan->telp) }}"
-                               class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition">
+                               placeholder="Contoh: 081234567890"
+                               class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition @error('telp') border-rose-500 @enderror">
+                        @error('telp')
+                            <p class="text-xs text-rose-500 mt-1.5">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div>
-                        <label for="npwp" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
-                            NPWP Toko / Usaha
+                        <label for="email" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                            Email Perusahaan / Toko
                         </label>
-                        <input type="text" name="npwp" id="npwp" value="{{ old('npwp', $perusahaan->npwp) }}"
-                               placeholder="Contoh: 01.234.567.8-901.000"
-                               class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition">
+                        <input type="email" name="email" id="email" value="{{ old('email', $perusahaan->email) }}"
+                               placeholder="info@toko.com"
+                               class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition @error('email') border-rose-500 @enderror">
+                        @error('email')
+                            <p class="text-xs text-rose-500 mt-1.5">{{ $message }}</p>
+                        @enderror
                     </div>
+                </div>
+
+                <div>
+                    <label for="npwp" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+                        NPWP Toko / Usaha
+                    </label>
+                    <input type="text" name="npwp" id="npwp" value="{{ old('npwp', $perusahaan->npwp) }}"
+                           placeholder="Contoh: 01.234.567.8-901.000"
+                           class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition @error('npwp') border-rose-500 @enderror">
+                    @error('npwp')
+                        <p class="text-xs text-rose-500 mt-1.5">{{ $message }}</p>
+                    @enderror
                 </div>
 
                 <div>
@@ -41,7 +74,10 @@
                         Alamat Workshop / Service Center
                     </label>
                     <textarea name="alamat" id="alamat" rows="3"
-                              class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition">{{ old('alamat', $perusahaan->alamat) }}</textarea>
+                              class="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition @error('alamat') border-rose-500 @enderror">{{ old('alamat', $perusahaan->alamat) }}</textarea>
+                    @error('alamat')
+                        <p class="text-xs text-rose-500 mt-1.5">{{ $message }}</p>
+                    @enderror
                 </div>
 
                 <div>

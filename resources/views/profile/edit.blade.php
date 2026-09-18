@@ -1,5 +1,5 @@
 <x-app-layout>
-    <x-slot name="title">Profil & Keamanan Akun — Cekat Cell</x-slot>
+    <x-slot name="title">Profil & Keamanan Akun — {{ $appPerusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko') }}</x-slot>
     <x-slot name="header">Profil & Keamanan Akun</x-slot>
     <x-slot name="subtitle">Kelola informasi identitas akun staf, email, dan perbarui kata sandi</x-slot>
 

@@ -30,12 +30,27 @@ class UIFlowTest extends TestCase
         $this->admin = User::where('username', 'admin')->first() ?? User::where('email', 'admin@cekatcell.com')->first() ?? User::first();
     }
 
-    public function test_login_page_renders_with_cekat_cell_branding(): void
+    public function test_login_page_renders_with_store_branding(): void
     {
+        Perusahaan::updateOrCreate(['id' => 1], [
+            'nama_perusahaan' => 'Wahyu Teknik Indotama',
+            'deskripsi' => 'Pusat Layanan Servis Terpadu',
+        ]);
+
         $response = $this->get('/login');
         $response->assertStatus(200);
-        $response->assertSee('Cekat Cell');
+        $response->assertSee('Wahyu Teknik Indotama');
         $response->assertSee('Selamat Datang Kembali');
+        $response->assertSee('Akses Cepat Akun Demo');
+    }
+
+    public function test_login_page_hides_demo_credentials_in_production(): void
+    {
+        $this->app['env'] = 'production';
+
+        $response = $this->get('/login');
+        $response->assertStatus(200);
+        $response->assertDontSee('Akses Cepat Akun Demo');
     }
 
     public function test_authenticated_dashboard_renders_with_kpi(): void
@@ -305,6 +320,21 @@ class UIFlowTest extends TestCase
         $responsePerusahaan = $this->actingAs($this->admin)->get('/pengaturan/perusahaan');
         $responsePerusahaan->assertStatus(200);
         $responsePerusahaan->assertSee('Identitas Toko / Nota');
+
+        $updatePerusahaan = $this->actingAs($this->admin)->put('/pengaturan/perusahaan', [
+            'nama_perusahaan' => 'Cekat Cell Mandiri',
+            'deskripsi' => 'Pusat reparasi gadget terpercaya',
+            'email' => 'toko@cekatcell.com',
+            'telp' => '08123456789',
+            'alamat' => 'Jl. Pemuda No. 45',
+            'npwp' => '12.345.678.9-012.000',
+        ]);
+        $updatePerusahaan->assertSessionHas('success');
+        $this->assertDatabaseHas('perusahaan', [
+            'nama_perusahaan' => 'Cekat Cell Mandiri',
+            'deskripsi' => 'Pusat reparasi gadget terpercaya',
+            'email' => 'toko@cekatcell.com',
+        ]);
 
         $responseUsers = $this->actingAs($this->admin)->get('/users');
         $responseUsers->assertStatus(200);

@@ -116,8 +116,8 @@
                                 </td>
                             @endif
                             <td style="vertical-align: top;">
-                                <div class="brand-title">{{ $perusahaan->nama_perusahaan ?? 'Cekat Cell' }}</div>
-                                <div class="brand-sub">{{ $perusahaan->alamat ?? 'Jl. Raya Servis No. 1' }} | Telp: {{ $perusahaan->telp ?? $perusahaan->telepon ?? '08123456789' }}</div>
+                                <div class="brand-title">{{ $perusahaan->nama_perusahaan ?? config('app.name', 'Nama Toko') }}</div>
+                                <div class="brand-sub">{{ $perusahaan->alamat ?? '-' }} | Telp: {{ $perusahaan->telp ?? '-' }}</div>
                             </td>
                         </tr>
                     </table>
@@ -185,7 +185,7 @@
                 Petugas Penerima,
                 <br><br><br>
                 <div class="sig-line"></div>
-                <div>( {{ $tiketServis->teknisi?->name ?? 'Front Office Cekat Cell' }} )</div>
+                <div>( {{ $tiketServis->teknisi?->name ?? ('Petugas ' . ($perusahaan->nama_perusahaan ?? 'Toko')) }} )</div>
             </td>
         </tr>
     </table>

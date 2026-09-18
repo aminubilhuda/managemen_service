@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\PengaturanPajak;
+use App\Models\Perusahaan;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Permission;
@@ -177,6 +178,20 @@ class DatabaseSeeder extends Seeder
                 'nominal_batas' => 2000000.00,
                 'aktif' => true,
                 'berlaku_mulai' => now(),
+            ]
+        );
+
+        // ========================================
+        // Identitas Toko / Perusahaan
+        // ========================================
+        Perusahaan::firstOrCreate(
+            ['id' => 1],
+            [
+                'nama_perusahaan' => config('app.name', 'CV. Wahyu Teknik Indotama'),
+                'deskripsi' => 'Pusat Layanan Servis Handphone & Point of Sales Terpadu',
+                'alamat' => 'Jl. Raya Servis No. 1',
+                'telp' => '08123456789',
+                'email' => 'admin@wti.com',
             ]
         );
     }

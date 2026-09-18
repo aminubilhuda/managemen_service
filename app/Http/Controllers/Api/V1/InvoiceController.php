@@ -68,7 +68,7 @@ class InvoiceController extends Controller
         $perusahaan = Perusahaan::first();
         if (! $perusahaan) {
             $perusahaan = Perusahaan::create([
-                'nama_perusahaan' => 'Cekat Cell Service Center',
+                'nama_perusahaan' => config('app.name', 'Nama Toko'),
                 'alamat' => 'Alamat belum diatur',
                 'telp' => '-',
             ]);

@@ -18,8 +18,10 @@ class PerusahaanController extends Controller
     {
         $validated = $request->validate([
             'nama_perusahaan' => 'required|string|max:255',
+            'deskripsi' => 'nullable|string',
             'alamat' => 'nullable|string',
             'telp' => 'nullable|string|max:20',
+            'email' => 'nullable|email|max:255',
             'npwp' => 'nullable|string|max:30',
             'logo' => 'nullable|image|max:2048',
         ]);

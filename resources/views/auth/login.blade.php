@@ -1,4 +1,12 @@
 <x-guest-layout>
+    @php
+        $namaToko = $appPerusahaan?->nama_perusahaan ?? config('app.name', 'Nama Toko');
+        $deskripsiToko = $appPerusahaan?->deskripsi ?? 'Pusat Layanan Servis & Point of Sales Terpadu';
+        $words = array_values(array_filter(explode(' ', trim($namaToko))));
+        $inisial = count($words) >= 2 
+            ? strtoupper(substr($words[0], 0, 1) . substr($words[1], 0, 1))
+            : strtoupper(substr($namaToko, 0, 2));
+    @endphp
     <div class="min-h-screen flex">
         <!-- Left Branding Panel (Hidden on mobile) -->
         <div class="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-12 flex-col justify-between border-r border-slate-800/80">
@@ -8,17 +16,21 @@
             
             <!-- Top brand header -->
             <div class="relative z-10 flex items-center gap-3.5">
-                <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-indigo-500 via-blue-500 to-cyan-400 p-0.5 shadow-lg shadow-indigo-500/25">
-                    <div class="w-full h-full bg-slate-950/80 backdrop-blur rounded-[10px] flex items-center justify-center font-extrabold text-white text-lg">
-                        CC
+                @if(!empty($appPerusahaan?->logo))
+                    <img src="{{ asset('storage/' . $appPerusahaan->logo) }}" alt="{{ $namaToko }}" class="w-11 h-11 rounded-xl object-contain bg-slate-900 p-1 border border-slate-800 shrink-0">
+                @else
+                    <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-indigo-500 via-blue-500 to-cyan-400 p-0.5 shadow-lg shadow-indigo-500/25 shrink-0">
+                        <div class="w-full h-full bg-slate-950/80 backdrop-blur rounded-[10px] flex items-center justify-center font-extrabold text-white text-lg">
+                            {{ $inisial }}
+                        </div>
                     </div>
-                </div>
+                @endif
                 <div>
                     <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
-                        Cekat Cell
+                        {{ $namaToko }}
                         <span class="text-[10px] uppercase font-semibold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">Enterprise ERP</span>
                     </h1>
-                    <p class="text-xs text-slate-400">Pusat Layanan Servis & Point of Sales Terpadu</p>
+                    <p class="text-xs text-slate-400">{{ $deskripsiToko }}</p>
                 </div>
             </div>
 
@@ -58,7 +70,7 @@
 
             <!-- Footer quote/copyright -->
             <div class="relative z-10 flex items-center justify-between text-xs text-slate-500 border-t border-slate-800/80 pt-4">
-                <span>&copy; {{ date('Y') }} Cekat Cell Service ERP</span>
+                <span>&copy; {{ date('Y') }} {{ $namaToko }} Service ERP</span>
                 <span>v2.1.0-release</span>
             </div>
         </div>
@@ -68,14 +80,18 @@
             <div class="w-full max-w-md">
                 <!-- Mobile brand header (shown on mobile only) -->
                 <div class="lg:hidden flex items-center gap-3 mb-8">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 via-blue-500 to-cyan-400 p-0.5">
-                        <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center font-bold text-white text-base">
-                            CC
+                    @if(!empty($appPerusahaan?->logo))
+                        <img src="{{ asset('storage/' . $appPerusahaan->logo) }}" alt="{{ $namaToko }}" class="w-10 h-10 rounded-xl object-contain bg-slate-900 p-1 border border-slate-800 shrink-0">
+                    @else
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 via-blue-500 to-cyan-400 p-0.5 shrink-0">
+                            <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center font-bold text-white text-base">
+                                {{ $inisial }}
+                            </div>
                         </div>
-                    </div>
+                    @endif
                     <div>
-                        <h1 class="text-lg font-bold text-white leading-tight">Cekat Cell</h1>
-                        <p class="text-xs text-slate-400">ERP & Service Center</p>
+                        <h1 class="text-lg font-bold text-white leading-tight">{{ $namaToko }}</h1>
+                        <p class="text-xs text-slate-400">{{ $deskripsiToko }}</p>
                     </div>
                 </div>
 
@@ -170,7 +186,8 @@
                     </div>
                 </form>
 
-                <!-- Quick login shortcuts -->
+                @if(!app()->isProduction())
+                <!-- Quick login shortcuts (Hanya tampil di mode non-production / local) -->
                 <div class="mt-8 pt-6 border-t border-slate-800/80">
                     <p class="text-xs font-semibold text-slate-400 mb-3 flex items-center gap-1.5">
                         <svg class="w-3.5 h-3.5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -180,15 +197,16 @@
                         <button type="button" onclick="fillCredentials('admin', 'password')"
                                 class="text-left px-3 py-2 rounded-lg bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-slate-700 transition text-xs">
                             <div class="font-medium text-slate-200">Super Admin</div>
-                            <div class="text-[11px] text-slate-400">admin / admin@cekatcell.com</div>
+                            <div class="text-[11px] text-slate-400">Username: admin</div>
                         </button>
                         <button type="button" onclick="fillCredentials('kasir', 'password')"
                                 class="text-left px-3 py-2 rounded-lg bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-slate-700 transition text-xs">
                             <div class="font-medium text-slate-200">Admin Kasir</div>
-                            <div class="text-[11px] text-slate-400">kasir / kasir@cekatcell.com</div>
+                            <div class="text-[11px] text-slate-400">Username: kasir</div>
                         </button>
                     </div>
                 </div>
+                @endif
             </div>
         </div>
     </div>

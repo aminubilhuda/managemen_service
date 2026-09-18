@@ -5,19 +5,19 @@
     "semantic_hash": "e9aa1f8c50e06cc1a7764cb08654183d"
   },
   "app/Exports/InvoiceExport.php": {
-    "mtime": 1789532178.1316366,
-    "ast_hash": "0e9415b719df55ba26e754ce75443b64",
-    "semantic_hash": "0e9415b719df55ba26e754ce75443b64"
+    "mtime": 1789698934.3630297,
+    "ast_hash": "3c8a8e343a031b3049fca2b48dd6d935",
+    "semantic_hash": ""
   },
   "app/Exports/LabaRugiExport.php": {
-    "mtime": 1789532178.2379637,
-    "ast_hash": "213ebe28bb8ec7e1a2829d318a229801",
-    "semantic_hash": "213ebe28bb8ec7e1a2829d318a229801"
+    "mtime": 1789698926.4624004,
+    "ast_hash": "c9b7be7495a98caa0d571c736ca8b300",
+    "semantic_hash": ""
   },
   "app/Exports/TiketExport.php": {
-    "mtime": 1789532178.0628953,
-    "ast_hash": "c5fe30c17b3dd3ee10cdd3aa914503a9",
-    "semantic_hash": "c5fe30c17b3dd3ee10cdd3aa914503a9"
+    "mtime": 1789698944.7042067,
+    "ast_hash": "40fb0328f595e1d78f9614694b7ebf27",
+    "semantic_hash": ""
   },
   "app/Http/Controllers/Auth/AuthenticatedSessionController.php": {
     "mtime": 1789451358.048519,
@@ -75,9 +75,9 @@
     "semantic_hash": "e4627fed23c63c8383550ed807bb8de0"
   },
   "app/Http/Controllers/InvoiceController.php": {
-    "mtime": 1789528905.8770359,
-    "ast_hash": "6c8203d6ba99c9c1fda4024a4b7a4bde",
-    "semantic_hash": "6c8203d6ba99c9c1fda4024a4b7a4bde"
+    "mtime": 1789698904.9292803,
+    "ast_hash": "0a488a177e81d0fb428f96a06571b0a3",
+    "semantic_hash": ""
   },
   "app/Http/Controllers/KategoriProdukController.php": {
     "mtime": 1789528963.3422668,
@@ -105,9 +105,9 @@
     "semantic_hash": "5852b5c30ddf8b4e8c554b2d2b116a09"
   },
   "app/Http/Controllers/PerusahaanController.php": {
-    "mtime": 1789524484.9137902,
-    "ast_hash": "87feea4d4735033e8cf9f34f9c461651",
-    "semantic_hash": "87feea4d4735033e8cf9f34f9c461651"
+    "mtime": 1789698108.5472057,
+    "ast_hash": "364365c16e57726d85a8736fe191450a",
+    "semantic_hash": ""
   },
   "app/Http/Controllers/ProdukController.php": {
     "mtime": 1789528963.3107116,
@@ -190,9 +190,9 @@
     "semantic_hash": "da129d457a2a28d7a0eb6be44e7324d6"
   },
   "app/Models/Perusahaan.php": {
-    "mtime": 1789451617.7556355,
-    "ast_hash": "2ec213ea30f4ce2d52c1f2c96f2b628e",
-    "semantic_hash": "2ec213ea30f4ce2d52c1f2c96f2b628e"
+    "mtime": 1789698098.456237,
+    "ast_hash": "f7f634e2f0a8c45dd44b6cbbae55640f",
+    "semantic_hash": ""
   },
   "app/Models/Produk.php": {
     "mtime": 1789451638.0076392,
@@ -210,14 +210,14 @@
     "semantic_hash": "9649e29d934e421835846f4b8650c13a"
   },
   "app/Models/User.php": {
-    "mtime": 1789528962.8466673,
-    "ast_hash": "4f2265c6b432a1aa4be9595d4904f423",
-    "semantic_hash": "4f2265c6b432a1aa4be9595d4904f423"
+    "mtime": 1789532910.2845187,
+    "ast_hash": "612c9aedc705a47f68b3f3ee11105d92",
+    "semantic_hash": ""
   },
   "app/Providers/AppServiceProvider.php": {
-    "mtime": 1789528962.7760992,
-    "ast_hash": "847542e6d76ba809c9fce800a437b17c",
-    "semantic_hash": "847542e6d76ba809c9fce800a437b17c"
+    "mtime": 1789700567.524371,
+    "ast_hash": "1913a7b20410b4e7acff91516fc13388",
+    "semantic_hash": ""
   },
   "app/View/Components/AppLayout.php": {
     "mtime": 1789528963.4645393,
@@ -240,9 +240,9 @@
     "semantic_hash": "1f93d071c45d219eccf060080af20139"
   },
   "bootstrap/app.php": {
-    "mtime": 1787675219.0,
-    "ast_hash": "d649649bd49673a6cc6b98c428f51e3a",
-    "semantic_hash": "d649649bd49673a6cc6b98c428f51e3a"
+    "mtime": 1789700507.979031,
+    "ast_hash": "b1f277939ce121f0b35c5a280b0eac90",
+    "semantic_hash": ""
   },
   "bootstrap/providers.php": {
     "mtime": 1787675219.0,
@@ -250,9 +250,9 @@
     "semantic_hash": "888c810b5a4720916f07aa05dd2c2dd3"
   },
   "composer.json": {
-    "mtime": 1789523892.7212799,
-    "ast_hash": "c6fdbaebc6bb97b824d20db0e62c2173",
-    "semantic_hash": "c6fdbaebc6bb97b824d20db0e62c2173"
+    "mtime": 1789532887.6183066,
+    "ast_hash": "31a3f63938a51ff5c22e5e1730ffe209",
+    "semantic_hash": ""
   },
   "config/app.php": {
     "mtime": 1787675219.0,
@@ -430,9 +430,9 @@
     "semantic_hash": "1c97baa31f5600c4bcbd48f487de03d5"
   },
   "database/seeders/DatabaseSeeder.php": {
-    "mtime": 1789525120.545708,
-    "ast_hash": "89782f45e171d65bed2456f176406c21",
-    "semantic_hash": "89782f45e171d65bed2456f176406c21"
+    "mtime": 1789700537.0627582,
+    "ast_hash": "894e398d3d585c323c2c4965dd4f88ae",
+    "semantic_hash": ""
   },
   "opencode.json": {
     "mtime": 1789527348.6322844,
@@ -470,9 +470,9 @@
     "semantic_hash": "7187c08d038738c11554cf373ebf0fb6"
   },
   "resources/views/auth/login.blade.php": {
-    "mtime": 1789524021.7123122,
-    "ast_hash": "bd934a78733cf870db46095e1c0f4169",
-    "semantic_hash": "bd934a78733cf870db46095e1c0f4169"
+    "mtime": 1789699671.9905457,
+    "ast_hash": "421eb3b0a6e4429fe66e0289859023e4",
+    "semantic_hash": ""
   },
   "resources/views/auth/register.blade.php": {
     "mtime": 1789451358.0522165,
@@ -570,9 +570,9 @@
     "semantic_hash": "1dae0e9813a545adc0dfad19320eca02"
   },
   "resources/views/dashboard.blade.php": {
-    "mtime": 1789528894.2538948,
-    "ast_hash": "f2ce95080822515ef3f65925238f2141",
-    "semantic_hash": "f2ce95080822515ef3f65925238f2141"
+    "mtime": 1789698832.018006,
+    "ast_hash": "64eb30830e70bf8a6e7f286461fcdbe4",
+    "semantic_hash": ""
   },
   "resources/views/invoice/create.blade.php": {
     "mtime": 1789524997.1287332,
@@ -585,14 +585,14 @@
     "semantic_hash": "01051be2cf8a9b2e003d55578257bc68"
   },
   "resources/views/invoice/pdf.blade.php": {
-    "mtime": 1789527741.0637982,
-    "ast_hash": "9be32dbe46ad5c7190c11c15810980b8",
-    "semantic_hash": "9be32dbe46ad5c7190c11c15810980b8"
+    "mtime": 1789698884.9803233,
+    "ast_hash": "342f83374e6eec241e72e1e076b1dd05",
+    "semantic_hash": ""
   },
   "resources/views/invoice/show.blade.php": {
-    "mtime": 1789525007.665629,
-    "ast_hash": "b497a1ac51b9dc5200b8002c7a6ed332",
-    "semantic_hash": "b497a1ac51b9dc5200b8002c7a6ed332"
+    "mtime": 1789698868.807422,
+    "ast_hash": "8794a6c98ed6c6fcc267de97074e34eb",
+    "semantic_hash": ""
   },
   "resources/views/kategori-produk/create.blade.php": {
     "mtime": 1789452761.8749287,
@@ -615,9 +615,9 @@
     "semantic_hash": "de5cc4b8c41bae23b989f5229031461b"
   },
   "resources/views/laporan/laba-rugi.blade.php": {
-    "mtime": 1789453022.0762784,
-    "ast_hash": "b9cb117e90a4030734982671f7b42edf",
-    "semantic_hash": "b9cb117e90a4030734982671f7b42edf"
+    "mtime": 1789698839.4638653,
+    "ast_hash": "78ea5fd8b7f5fd1e4c35d7bd905dbce9",
+    "semantic_hash": ""
   },
   "resources/views/laporan/tiket.blade.php": {
     "mtime": 1789452969.8865473,
@@ -625,14 +625,14 @@
     "semantic_hash": "300b6450bd3b767523089d9194594dd5"
   },
   "resources/views/layouts/app.blade.php": {
-    "mtime": 1789530602.3214066,
-    "ast_hash": "6ef4c1925be3fe171a9e0952c755f46f",
-    "semantic_hash": "6ef4c1925be3fe171a9e0952c755f46f"
+    "mtime": 1789701465.3594992,
+    "ast_hash": "9efc274530fd99df94fd9ecfd6522eb0",
+    "semantic_hash": ""
   },
   "resources/views/layouts/guest.blade.php": {
-    "mtime": 1789452569.446901,
-    "ast_hash": "2964c298f7fb4dcd91b02aaf2c063737",
-    "semantic_hash": "2964c298f7fb4dcd91b02aaf2c063737"
+    "mtime": 1789698808.8421862,
+    "ast_hash": "8a4eb7fc17ddeef16a1bc7160b8f5224",
+    "semantic_hash": ""
   },
   "resources/views/layouts/navigation.blade.php": {
     "mtime": 1789451358.0539398,
@@ -655,9 +655,9 @@
     "semantic_hash": "d0cedb966c19503113b17d731542b953"
   },
   "resources/views/pelanggan/show.blade.php": {
-    "mtime": 1789452746.3675106,
-    "ast_hash": "577f3c708b01730d19fa3304bc03d7d1",
-    "semantic_hash": "577f3c708b01730d19fa3304bc03d7d1"
+    "mtime": 1789698847.3430073,
+    "ast_hash": "67ff5045f760ace159a6cbbc8dd5fa43",
+    "semantic_hash": ""
   },
   "resources/views/pengaturan/pajak/create.blade.php": {
     "mtime": 1789524941.3712714,
@@ -675,9 +675,9 @@
     "semantic_hash": "648a36a6c80862dbb78c4bea1357e9bf"
   },
   "resources/views/pengaturan/perusahaan.blade.php": {
-    "mtime": 1789453260.8547873,
-    "ast_hash": "11ace801a61a1d31513389f907a49e3f",
-    "semantic_hash": "11ace801a61a1d31513389f907a49e3f"
+    "mtime": 1789698966.3828807,
+    "ast_hash": "59970a03e29e2cff5de9c5c4f8a56692",
+    "semantic_hash": ""
   },
   "resources/views/pengeluaran/create.blade.php": {
     "mtime": 1789453000.8061903,
@@ -710,9 +710,9 @@
     "semantic_hash": "d674d13dceedad3b7b0a43a846518f47"
   },
   "resources/views/profile/edit.blade.php": {
-    "mtime": 1789454053.86444,
-    "ast_hash": "75ec738dc81ef19f0e0cccc6d711711f",
-    "semantic_hash": "75ec738dc81ef19f0e0cccc6d711711f"
+    "mtime": 1789698853.3836255,
+    "ast_hash": "e659713ba120b46af4b940be8efb37a1",
+    "semantic_hash": ""
   },
   "resources/views/profile/partials/delete-user-form.blade.php": {
     "mtime": 1789451358.0536528,
@@ -750,14 +750,14 @@
     "semantic_hash": "559081a5d16740400e600cac1f8c8cda"
   },
   "resources/views/tiket-servis/tanda-terima-pdf.blade.php": {
-    "mtime": 1789524414.665773,
-    "ast_hash": "02757ee2f46a5bb37b3234603554fd98",
-    "semantic_hash": "02757ee2f46a5bb37b3234603554fd98"
+    "mtime": 1789698897.6576023,
+    "ast_hash": "4694aa2ae1fd5067c1993e392e8a697a",
+    "semantic_hash": ""
   },
   "resources/views/users/create.blade.php": {
-    "mtime": 1789524060.6244414,
-    "ast_hash": "11ef6ab734d2804174fc780d306a1c40",
-    "semantic_hash": "11ef6ab734d2804174fc780d306a1c40"
+    "mtime": 1789698958.670065,
+    "ast_hash": "42fe8d0d2bb3a02d7828a25cec297790",
+    "semantic_hash": ""
   },
   "resources/views/users/edit.blade.php": {
     "mtime": 1789524072.2180169,
@@ -835,9 +835,9 @@
     "semantic_hash": "198cba3e6561abe548cc34787a312e44"
   },
   "tests/Feature/UIFlowTest.php": {
-    "mtime": 1789525848.768783,
-    "ast_hash": "8294578ce8c28e5fd2345e2c35922cc2",
-    "semantic_hash": "8294578ce8c28e5fd2345e2c35922cc2"
+    "mtime": 1789699700.50605,
+    "ast_hash": "405bac43992334d7b788ba8ee6465b78",
+    "semantic_hash": ""
   },
   "tests/TestCase.php": {
     "mtime": 1787675219.0,
@@ -853,5 +853,1075 @@
     "mtime": 1789451358.0559313,
     "ast_hash": "804b9fdf6105c34a0a14bed82a9d6026",
     "semantic_hash": "804b9fdf6105c34a0a14bed82a9d6026"
+  },
+  "app/Http/Controllers/Api/V1/AuthController.php": {
+    "mtime": 1789533114.7826324,
+    "ast_hash": "bcf8384cc0fe399ded1da5868d8cd424",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/DashboardController.php": {
+    "mtime": 1789533122.7012434,
+    "ast_hash": "2339ead0f1457103e4f2d1a2c8f45827",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/DokumentasiUnitController.php": {
+    "mtime": 1789533145.6969244,
+    "ast_hash": "671e28643c6ff4571a3856c6f096384f",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/InvoiceController.php": {
+    "mtime": 1789698911.556399,
+    "ast_hash": "f112669e98e42145b80d72f8fef29774",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/KategoriProdukController.php": {
+    "mtime": 1789533157.3060484,
+    "ast_hash": "f4e993385e4813fac418e6816b926a96",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/MasterController.php": {
+    "mtime": 1789698918.508643,
+    "ast_hash": "45fdcbff55ecc4f5f68590b7806f28ab",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/PelangganController.php": {
+    "mtime": 1789534358.4232512,
+    "ast_hash": "9633fcf5ee7f23155a8ef7fb9ab8597a",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/PembayaranController.php": {
+    "mtime": 1789533191.4721894,
+    "ast_hash": "5c12a50e1e215f4f72481900f3e72e7a",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/PengeluaranController.php": {
+    "mtime": 1789533198.7161193,
+    "ast_hash": "0f507ad54416fe94496b75b5e49e2e01",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/ProdukController.php": {
+    "mtime": 1789533163.6150234,
+    "ast_hash": "3d4774c7f9cf165f131e283855e9ad41",
+    "semantic_hash": ""
+  },
+  "app/Http/Controllers/Api/V1/TiketServisController.php": {
+    "mtime": 1789533261.397603,
+    "ast_hash": "21e3bb0c3f349bc9b57c26526eeaf4c5",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Auth/LoginRequest.php": {
+    "mtime": 1789533015.3997922,
+    "ast_hash": "6f58c749c6677f2326a62e0d5d2aa337",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Auth/UpdatePasswordRequest.php": {
+    "mtime": 1789533025.148887,
+    "ast_hash": "981b34c5dee420e87ede053a7124e8bc",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Auth/UpdateProfileRequest.php": {
+    "mtime": 1789533020.4624176,
+    "ast_hash": "628084e81dd70101f889f5bbb975a426",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Invoice/StoreInvoiceRequest.php": {
+    "mtime": 1789533092.1969888,
+    "ast_hash": "fdf84450c1eaad1123c1823c527b0bc9",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Invoice/StorePembayaranRequest.php": {
+    "mtime": 1789533098.0836933,
+    "ast_hash": "a0fc323a79cc6c35efd6967c68475cbf",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Pelanggan/StorePelangganRequest.php": {
+    "mtime": 1789533057.0065846,
+    "ast_hash": "f08d6b90a6d7b482171b95434c4d171b",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Pelanggan/UpdatePelangganRequest.php": {
+    "mtime": 1789533061.6923466,
+    "ast_hash": "9ecf21210826ae75c9e9291d778d6ae3",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Pengeluaran/StorePengeluaranRequest.php": {
+    "mtime": 1789533108.224113,
+    "ast_hash": "2c0d4b6b571f473a3accae5f3aeceff2",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Produk/StoreProdukRequest.php": {
+    "mtime": 1789533069.5641751,
+    "ast_hash": "16d8a8141990a9b1130dec6cf10e85da",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Produk/UpdateProdukRequest.php": {
+    "mtime": 1789533080.1080024,
+    "ast_hash": "72ec09d316eace9fc9a1b87d21cd8836",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Tiket/StoreTiketRequest.php": {
+    "mtime": 1789533032.0537105,
+    "ast_hash": "3e5977ea3195f92c41f26db62b6bea7d",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Tiket/UpdateStatusRequest.php": {
+    "mtime": 1789533042.177774,
+    "ast_hash": "fdbbaf384c3634a454ae0e9c71a18132",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Tiket/UpdateTiketRequest.php": {
+    "mtime": 1789533036.8842232,
+    "ast_hash": "9bf0d7541d40695e23b60df1a3cbd348",
+    "semantic_hash": ""
+  },
+  "app/Http/Requests/Api/V1/Tiket/UploadDokumentasiRequest.php": {
+    "mtime": 1789533254.9059615,
+    "ast_hash": "7e94aa36d020fd35b00061f9d3fe37c1",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/DetailInvoiceResource.php": {
+    "mtime": 1789532991.0814536,
+    "ast_hash": "5a4cbb05d0bf20800948de769cc06919",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/DokumentasiUnitResource.php": {
+    "mtime": 1789532935.7834675,
+    "ast_hash": "69789854c1060806384a49ae0e33e41b",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/InvoiceResource.php": {
+    "mtime": 1789533002.0337334,
+    "ast_hash": "71653741cc685e3703abeb61ed97e82d",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/KategoriProdukResource.php": {
+    "mtime": 1789532969.2676876,
+    "ast_hash": "7121b51d48f40f59e50dbddb3d3f8e81",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/PelangganResource.php": {
+    "mtime": 1789532926.263979,
+    "ast_hash": "eaccafc06696046533db5d4321402be0",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/PembayaranResource.php": {
+    "mtime": 1789532996.7567458,
+    "ast_hash": "e8e1accf1ddec3f80580a76aaafff64d",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/PengeluaranResource.php": {
+    "mtime": 1789533009.312666,
+    "ast_hash": "b374e4c0bb8d1a1662bf869798f70f08",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/ProdukResource.php": {
+    "mtime": 1789532974.906515,
+    "ast_hash": "6fb787fd1a4e27bbc4b949947d4a94e1",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/RiwayatStatusTiketResource.php": {
+    "mtime": 1789532944.1779792,
+    "ast_hash": "4764d064f5483342251c8cf2ced79665",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/TiketServisResource.php": {
+    "mtime": 1789532957.503241,
+    "ast_hash": "2cd4518038dc70d82aab1555c59dbbf8",
+    "semantic_hash": ""
+  },
+  "app/Http/Resources/Api/V1/UserResource.php": {
+    "mtime": 1789532921.1049118,
+    "ast_hash": "4b9259de1087a1b5158794859a2147c1",
+    "semantic_hash": ""
+  },
+  "app/Http/Traits/ApiResponse.php": {
+    "mtime": 1789532915.7073317,
+    "ast_hash": "b656b710e7ec66747a14a227915af79c",
+    "semantic_hash": ""
+  },
+  "config/sanctum.php": {
+    "mtime": 1789532899.4028134,
+    "ast_hash": "e3887ebee464a1b2c014cb16696a2b50",
+    "semantic_hash": ""
+  },
+  "database/migrations/2026_09_16_042820_create_personal_access_tokens_table.php": {
+    "mtime": 1789532899.4024045,
+    "ast_hash": "eb77af89d184f92ec893eff344c34999",
+    "semantic_hash": ""
+  },
+  "database/migrations/2026_09_18_020805_add_email_and_deskripsi_to_perusahaan_table.php": {
+    "mtime": 1789698094.1491153,
+    "ast_hash": "f53d408e98df2324ad053860fbaea973",
+    "semantic_hash": ""
+  },
+  "mobile-app/.claude/settings.json": {
+    "mtime": 1789614264.4374824,
+    "ast_hash": "dc580fca35a0e98ed20777ede5e545a1",
+    "semantic_hash": ""
+  },
+  "mobile-app/App.tsx": {
+    "mtime": 1789614721.637944,
+    "ast_hash": "6f71fc801baa597a47ce38988b0bd775",
+    "semantic_hash": ""
+  },
+  "mobile-app/app.json": {
+    "mtime": 1789615424.7046993,
+    "ast_hash": "816c54f6f8720c3abfeb359cf4863e70",
+    "semantic_hash": ""
+  },
+  "mobile-app/components/Button.tsx": {
+    "mtime": 1789614414.848627,
+    "ast_hash": "db994c8678e36554e85243ded4e5850e",
+    "semantic_hash": ""
+  },
+  "mobile-app/components/Card.tsx": {
+    "mtime": 1789614443.1124241,
+    "ast_hash": "ca3ef2edf7c888db519d28c5e54546bd",
+    "semantic_hash": ""
+  },
+  "mobile-app/components/CurrencyInput.tsx": {
+    "mtime": 1789614428.4595442,
+    "ast_hash": "b993f9133e2d7e6dd1b530755d638eed",
+    "semantic_hash": ""
+  },
+  "mobile-app/components/EmptyState.tsx": {
+    "mtime": 1789614453.8601024,
+    "ast_hash": "72bbf161e93b4a4820283f868c8c530b",
+    "semantic_hash": ""
+  },
+  "mobile-app/components/Header.tsx": {
+    "mtime": 1789614459.7537007,
+    "ast_hash": "968b277e2b9be220b69b8b6e543ca489",
+    "semantic_hash": ""
+  },
+  "mobile-app/components/Input.tsx": {
+    "mtime": 1789614421.0735712,
+    "ast_hash": "2c9f8a38ef3c94d8c11e4dd90f405600",
+    "semantic_hash": ""
+  },
+  "mobile-app/components/SearchBar.tsx": {
+    "mtime": 1789614448.6475546,
+    "ast_hash": "d3849e010f03f5affca1e145e14dad78",
+    "semantic_hash": ""
+  },
+  "mobile-app/components/StatusBadge.tsx": {
+    "mtime": 1789614436.5569904,
+    "ast_hash": "7d16fd5d2e18a53e2c58ec8420d2e0c8",
+    "semantic_hash": ""
+  },
+  "mobile-app/constants/Colors.ts": {
+    "mtime": 1789614332.3218455,
+    "ast_hash": "174d85281aef12c051ea6eeefc36952f",
+    "semantic_hash": ""
+  },
+  "mobile-app/index.ts": {
+    "mtime": 1789614151.2718642,
+    "ast_hash": "33caa6d28d87fc7e637c033d0d7124b1",
+    "semantic_hash": ""
+  },
+  "mobile-app/navigation/AppNavigator.tsx": {
+    "mtime": 1789618298.9090393,
+    "ast_hash": "41d86c18581c11fef6cea738a66429f6",
+    "semantic_hash": ""
+  },
+  "mobile-app/package.json": {
+    "mtime": 1789617237.7096903,
+    "ast_hash": "6aa80fd3bda28444c4824b6596cd43fa",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/akun/AkunScreen.tsx": {
+    "mtime": 1789614690.0601907,
+    "ast_hash": "b0a5ba8562ad77712bfc5ef31de2f51d",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/akun/EditProfilModal.tsx": {
+    "mtime": 1789614695.749755,
+    "ast_hash": "3a37d2d6198d9395dcca087f33417bcf",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/akun/GantiPasswordModal.tsx": {
+    "mtime": 1789614701.5844839,
+    "ast_hash": "8b24dff92c0b2ccb87fc2b5d0f66108b",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/auth/LoginScreen.tsx": {
+    "mtime": 1789617367.6674519,
+    "ast_hash": "1ef9315b2a184d3438ac490218ca8fc5",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/auth/ServerConfigScreen.tsx": {
+    "mtime": 1789616842.5976484,
+    "ast_hash": "efdf84b64eda327a319baf9e2afd2e35",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/dashboard/DashboardScreen.tsx": {
+    "mtime": 1789614496.774161,
+    "ast_hash": "cd92c2d0cadf5643a933adddabe76978",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/kasir/InvoiceCreateScreen.tsx": {
+    "mtime": 1789614745.4709282,
+    "ast_hash": "35583e58f34e6f6cd26f7e5c128022e6",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/kasir/InvoiceDetailScreen.tsx": {
+    "mtime": 1789614753.9456334,
+    "ast_hash": "4ba088bc49ac2e5c1f789bed79bc9615",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/kasir/InvoiceListScreen.tsx": {
+    "mtime": 1789614581.456722,
+    "ast_hash": "7c5a82dbf3cdc604949b90d29211448e",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/kasir/PembayaranModal.tsx": {
+    "mtime": 1789614620.160111,
+    "ast_hash": "8b9d7c9ffdb9c383d745ee25543eabf7",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/kasir/PengeluaranCreateModal.tsx": {
+    "mtime": 1789614639.4611795,
+    "ast_hash": "6958d351c619b54f57e0c5212ab9a676",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/kasir/PengeluaranScreen.tsx": {
+    "mtime": 1789614629.0770087,
+    "ast_hash": "114da303344a6e83b8b37525920d881a",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/master/MasterScreen.tsx": {
+    "mtime": 1789614652.3814197,
+    "ast_hash": "d1144e84d93908779fff8d71b702ff52",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/master/PelangganDetailScreen.tsx": {
+    "mtime": 1789614661.7754457,
+    "ast_hash": "10b6bf400bbce22b8f8dc30b8e40c149",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/master/PelangganFormModal.tsx": {
+    "mtime": 1789614668.5889282,
+    "ast_hash": "d493a6f38a7ee26c0db2d88a4b84fc72",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/master/ProdukFormModal.tsx": {
+    "mtime": 1789614679.8578556,
+    "ast_hash": "f1fc6c2c2bfff8e25071b2e8bfe42a82",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/tiket/DokumentasiUploadModal.tsx": {
+    "mtime": 1789614561.8280518,
+    "ast_hash": "08a2e9f7ef0f49b4cf59e1030eee0ce1",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/tiket/StatusUpdateModal.tsx": {
+    "mtime": 1789614551.3632572,
+    "ast_hash": "9adfc60e94f2f55831555e204e1f90d1",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/tiket/TiketDetailScreen.tsx": {
+    "mtime": 1789614764.4497964,
+    "ast_hash": "f5e67e1fb7e2e2b1ba81b43b688fa775",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/tiket/TiketIntakeScreen.tsx": {
+    "mtime": 1789614525.5038128,
+    "ast_hash": "33773476337239c885c18af588658d79",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/tiket/TiketListScreen.tsx": {
+    "mtime": 1789614511.0997558,
+    "ast_hash": "805bf7ccdcb50a921fc28a03c24a3f47",
+    "semantic_hash": ""
+  },
+  "mobile-app/screens/tiket/TiketScanScreen.tsx": {
+    "mtime": 1789614771.1544635,
+    "ast_hash": "02cb0de591af714ebb23b351e52fa260",
+    "semantic_hash": ""
+  },
+  "mobile-app/scripts/capture_all_screens.js": {
+    "mtime": 1789617882.612262,
+    "ast_hash": "0f37ce0b903c933ee4c72ccd9c8e3a08",
+    "semantic_hash": ""
+  },
+  "mobile-app/scripts/capture_clean.js": {
+    "mtime": 1789618128.3047018,
+    "ast_hash": "6261ff4c271487cac1e36df9fa3f0e39",
+    "semantic_hash": ""
+  },
+  "mobile-app/scripts/capture_master.js": {
+    "mtime": 1789618315.7817197,
+    "ast_hash": "44417de20d002fa7b2434936e808c167",
+    "semantic_hash": ""
+  },
+  "mobile-app/scripts/capture_screenshots.js": {
+    "mtime": 1789617254.8544247,
+    "ast_hash": "85ecddae56649f15cdffb2c0af21080a",
+    "semantic_hash": ""
+  },
+  "mobile-app/scripts/generate_docx_report.js": {
+    "mtime": 1789618489.0063431,
+    "ast_hash": "fb76bde6597ca18fb0cd018fddd76775",
+    "semantic_hash": ""
+  },
+  "mobile-app/scripts/test_card_click.js": {
+    "mtime": 1789618064.2947397,
+    "ast_hash": "6548fa7635e9743e40e883f6355270e0",
+    "semantic_hash": ""
+  },
+  "mobile-app/scripts/test_login_click.js": {
+    "mtime": 1789617293.5574253,
+    "ast_hash": "67a775a52efb9712fcd50eb7aad1d8f7",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/api.ts": {
+    "mtime": 1789616861.9527133,
+    "ast_hash": "435a0bd1a67416b72d4c5043d91dede5",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/authService.ts": {
+    "mtime": 1789614363.599473,
+    "ast_hash": "8f636ed3ece6589fe21ef3e382e011db",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/dashboardService.ts": {
+    "mtime": 1789614368.9857476,
+    "ast_hash": "fe38c11c4d4646e9926add6df53c7361",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/invoiceService.ts": {
+    "mtime": 1789614392.937573,
+    "ast_hash": "09dc8931bdbcdf2f84d70b94af06cb7c",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/masterService.ts": {
+    "mtime": 1789614407.6856453,
+    "ast_hash": "c264d1ca11ba68a26b53c09b4a44b30e",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/pelangganService.ts": {
+    "mtime": 1789614380.4173958,
+    "ast_hash": "6d2f0183d541c6a000477ee4972e0ee3",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/pengeluaranService.ts": {
+    "mtime": 1789614400.792334,
+    "ast_hash": "d11efb33614e9fa765eaf51ab444da88",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/produkService.ts": {
+    "mtime": 1789614387.095258,
+    "ast_hash": "d13a318da0dc966ce7c7325f8e0db304",
+    "semantic_hash": ""
+  },
+  "mobile-app/services/tiketService.ts": {
+    "mtime": 1789614375.3249104,
+    "ast_hash": "c1130d90de0cedf8f9562cef3e3179fb",
+    "semantic_hash": ""
+  },
+  "mobile-app/store/useAuthStore.ts": {
+    "mtime": 1789614358.6373174,
+    "ast_hash": "b30037c720167decd7423d3f2b8a4d01",
+    "semantic_hash": ""
+  },
+  "mobile-app/tsconfig.json": {
+    "mtime": 1789614151.2663476,
+    "ast_hash": "a5df9ddad82c56de332cbb7d00dd294b",
+    "semantic_hash": ""
+  },
+  "mobile-app/types/api.ts": {
+    "mtime": 1789614345.7281792,
+    "ast_hash": "b766aab13826b9b65a6e2a2aede09f70",
+    "semantic_hash": ""
+  },
+  "routes/api.php": {
+    "mtime": 1789698988.472634,
+    "ast_hash": "38437856506ae8d856c8873f285039e4",
+    "semantic_hash": ""
+  },
+  "tests/Feature/Api/V1/MobileApiTest.php": {
+    "mtime": 1789533248.607061,
+    "ast_hash": "2180021cec896811c1069234908b073b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/deploying-to-cloud/SKILL.md": {
+    "mtime": 1789523894.0526752,
+    "ast_hash": "b062652acaac0f16fee14b75dd3a8256",
+    "semantic_hash": ""
+  },
+  ".agents/skills/deploying-to-cloud/reference/checklists.md": {
+    "mtime": 1789523894.0529606,
+    "ast_hash": "54a1af2e1cf30ea952c13230394d2934",
+    "semantic_hash": ""
+  },
+  ".agents/skills/infer-conventions/SKILL.md": {
+    "mtime": 1789523894.051447,
+    "ast_hash": "48d3750d99b1f6cec54a9730c75b38d5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/infer-conventions/references/checklist.md": {
+    "mtime": 1789523894.0522048,
+    "ast_hash": "efd4ebfcc66ccbfdd9a6fb5367ea7dc5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/SKILL.md": {
+    "mtime": 1789523894.0532968,
+    "ast_hash": "facaad34ca71f6f9bd7818e2ebf281ed",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/advanced-queries.md": {
+    "mtime": 1789523894.0570488,
+    "ast_hash": "828e2a0e4bb10ef36bed4ec4aec03519",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/architecture.md": {
+    "mtime": 1789523894.054183,
+    "ast_hash": "77e9221159f77a3a9f2021285ec350ca",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/blade-views.md": {
+    "mtime": 1789523894.0554836,
+    "ast_hash": "b6a9841dcd5337948ca51d40a3c9d8bd",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/caching.md": {
+    "mtime": 1789523894.054896,
+    "ast_hash": "76bb5c2a51844680534506af5e8737d8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/collections.md": {
+    "mtime": 1789523894.054685,
+    "ast_hash": "1f7aec8f30542b0b6e667a3b4a8666a9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/config.md": {
+    "mtime": 1789523894.0559094,
+    "ast_hash": "585a9d78c182ee0f9a02b94e27ca37d3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/db-performance.md": {
+    "mtime": 1789523894.0545068,
+    "ast_hash": "63b5160e60a74ddd56e84a13996b2218",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/eloquent.md": {
+    "mtime": 1789523894.0551164,
+    "ast_hash": "bd894089f77c7413a7b4882cc5290bd4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/error-handling.md": {
+    "mtime": 1789523894.0566673,
+    "ast_hash": "6b6ac1b84e7eaa6114c8cf84d877a75f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/events-notifications.md": {
+    "mtime": 1789523894.0568182,
+    "ast_hash": "00ad097cd2e9f524bf63c8a69a693b67",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/http-client.md": {
+    "mtime": 1789523894.0565212,
+    "ast_hash": "5e5f4ee902ce35010fb203fe4731c685",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/mail.md": {
+    "mtime": 1789523894.0562606,
+    "ast_hash": "737748d709446fe01299157812370937",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/migrations.md": {
+    "mtime": 1789523894.0538805,
+    "ast_hash": "371f145e3a4dad420fd6c50c28fc90ff",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/queue-jobs.md": {
+    "mtime": 1789523894.0557635,
+    "ast_hash": "0e785c5767bb0e21eef7e16623bfd13c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/routing.md": {
+    "mtime": 1789523894.0535767,
+    "ast_hash": "6d474169fb509df69ac8afe540647ac4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/scheduling.md": {
+    "mtime": 1789523894.0537333,
+    "ast_hash": "3e6fccf7e988edbcf164268d19b64266",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/security.md": {
+    "mtime": 1789523894.0573087,
+    "ast_hash": "ab058effac7e2a23e085e2459849800b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/style.md": {
+    "mtime": 1789523894.0561347,
+    "ast_hash": "7cbf5becc35586f8d90b0e1a524ac5aa",
+    "semantic_hash": ""
+  },
+  ".agents/skills/laravel-best-practices/rules/validation.md": {
+    "mtime": 1789523894.0552845,
+    "ast_hash": "7f226f5597fe24b57c12c3c1fd40f88c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/tailwindcss-development/SKILL.md": {
+    "mtime": 1789523894.0605283,
+    "ast_hash": "4a5b30840f41ad577f4f6ef56b89f427",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/SKILL.md": {
+    "mtime": 1789523894.0577936,
+    "ast_hash": "bdd32b0deb861e8c6ca6a7fd2cd8e861",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/assertions.md": {
+    "mtime": 1789523894.060278,
+    "ast_hash": "df47b7220a2fab240c5d8b088ca02141",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/endpoint-tests.md": {
+    "mtime": 1789523894.0599825,
+    "ast_hash": "ee4ff86a95e4bafb26b15911a81b1a50",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/finding-features.md": {
+    "mtime": 1789523894.0584164,
+    "ast_hash": "6ecf3cc96fc90eeff858b1f2295ad3f4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/isolation.md": {
+    "mtime": 1789523894.0581398,
+    "ast_hash": "feba049ff2ef2ab43af2d23e226bbf33",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/naming.md": {
+    "mtime": 1789523894.0588791,
+    "ast_hash": "d7ec61dfc078f9c815fe511e7bb8c11c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/performance.md": {
+    "mtime": 1789523894.0594726,
+    "ast_hash": "9fb661575bc3253b113874e69f310930",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/review.md": {
+    "mtime": 1789523894.0586321,
+    "ast_hash": "a09aef8c319586bc8592d1f5b1cb92ea",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/security.md": {
+    "mtime": 1789523894.059718,
+    "ast_hash": "993d39e4411c0c1ba5c0802a2edbd33f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/testing-best-practices/rules/test-data.md": {
+    "mtime": 1789523894.0591812,
+    "ast_hash": "edea9b226693e250cbc97f3e09ea455d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/deploying-to-cloud/SKILL.md": {
+    "mtime": 1789523894.0286427,
+    "ast_hash": "b062652acaac0f16fee14b75dd3a8256",
+    "semantic_hash": ""
+  },
+  ".claude/skills/deploying-to-cloud/reference/checklists.md": {
+    "mtime": 1789523894.029815,
+    "ast_hash": "54a1af2e1cf30ea952c13230394d2934",
+    "semantic_hash": ""
+  },
+  ".claude/skills/infer-conventions/SKILL.md": {
+    "mtime": 1789523894.0262148,
+    "ast_hash": "48d3750d99b1f6cec54a9730c75b38d5",
+    "semantic_hash": ""
+  },
+  ".claude/skills/infer-conventions/references/checklist.md": {
+    "mtime": 1789523894.0280964,
+    "ast_hash": "efd4ebfcc66ccbfdd9a6fb5367ea7dc5",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/SKILL.md": {
+    "mtime": 1789523894.0301816,
+    "ast_hash": "facaad34ca71f6f9bd7818e2ebf281ed",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/advanced-queries.md": {
+    "mtime": 1789523894.0380123,
+    "ast_hash": "828e2a0e4bb10ef36bed4ec4aec03519",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/architecture.md": {
+    "mtime": 1789523894.0338206,
+    "ast_hash": "77e9221159f77a3a9f2021285ec350ca",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/blade-views.md": {
+    "mtime": 1789523894.0357096,
+    "ast_hash": "b6a9841dcd5337948ca51d40a3c9d8bd",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/caching.md": {
+    "mtime": 1789523894.0349405,
+    "ast_hash": "76bb5c2a51844680534506af5e8737d8",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/collections.md": {
+    "mtime": 1789523894.034647,
+    "ast_hash": "1f7aec8f30542b0b6e667a3b4a8666a9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/config.md": {
+    "mtime": 1789523894.0362742,
+    "ast_hash": "585a9d78c182ee0f9a02b94e27ca37d3",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/db-performance.md": {
+    "mtime": 1789523894.0343752,
+    "ast_hash": "63b5160e60a74ddd56e84a13996b2218",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/eloquent.md": {
+    "mtime": 1789523894.0352457,
+    "ast_hash": "bd894089f77c7413a7b4882cc5290bd4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/error-handling.md": {
+    "mtime": 1789523894.0374439,
+    "ast_hash": "6b6ac1b84e7eaa6114c8cf84d877a75f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/events-notifications.md": {
+    "mtime": 1789523894.0376747,
+    "ast_hash": "00ad097cd2e9f524bf63c8a69a693b67",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/http-client.md": {
+    "mtime": 1789523894.0371933,
+    "ast_hash": "5e5f4ee902ce35010fb203fe4731c685",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/mail.md": {
+    "mtime": 1789523894.0368142,
+    "ast_hash": "737748d709446fe01299157812370937",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/migrations.md": {
+    "mtime": 1789523894.0332696,
+    "ast_hash": "371f145e3a4dad420fd6c50c28fc90ff",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/queue-jobs.md": {
+    "mtime": 1789523894.036051,
+    "ast_hash": "0e785c5767bb0e21eef7e16623bfd13c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/routing.md": {
+    "mtime": 1789523894.0316,
+    "ast_hash": "6d474169fb509df69ac8afe540647ac4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/scheduling.md": {
+    "mtime": 1789523894.032064,
+    "ast_hash": "3e6fccf7e988edbcf164268d19b64266",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/security.md": {
+    "mtime": 1789523894.0384066,
+    "ast_hash": "ab058effac7e2a23e085e2459849800b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/style.md": {
+    "mtime": 1789523894.0366075,
+    "ast_hash": "7cbf5becc35586f8d90b0e1a524ac5aa",
+    "semantic_hash": ""
+  },
+  ".claude/skills/laravel-best-practices/rules/validation.md": {
+    "mtime": 1789523894.0354893,
+    "ast_hash": "7f226f5597fe24b57c12c3c1fd40f88c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/tailwindcss-development/SKILL.md": {
+    "mtime": 1789523894.0506024,
+    "ast_hash": "4a5b30840f41ad577f4f6ef56b89f427",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/SKILL.md": {
+    "mtime": 1789523894.0390131,
+    "ast_hash": "bdd32b0deb861e8c6ca6a7fd2cd8e861",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/assertions.md": {
+    "mtime": 1789523894.050272,
+    "ast_hash": "df47b7220a2fab240c5d8b088ca02141",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/endpoint-tests.md": {
+    "mtime": 1789523894.04908,
+    "ast_hash": "ee4ff86a95e4bafb26b15911a81b1a50",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/finding-features.md": {
+    "mtime": 1789523894.041583,
+    "ast_hash": "6ecf3cc96fc90eeff858b1f2295ad3f4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/isolation.md": {
+    "mtime": 1789523894.040413,
+    "ast_hash": "feba049ff2ef2ab43af2d23e226bbf33",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/naming.md": {
+    "mtime": 1789523894.0439517,
+    "ast_hash": "d7ec61dfc078f9c815fe511e7bb8c11c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/performance.md": {
+    "mtime": 1789523894.0469084,
+    "ast_hash": "9fb661575bc3253b113874e69f310930",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/review.md": {
+    "mtime": 1789523894.0425274,
+    "ast_hash": "a09aef8c319586bc8592d1f5b1cb92ea",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/security.md": {
+    "mtime": 1789523894.0478787,
+    "ast_hash": "993d39e4411c0c1ba5c0802a2edbd33f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/testing-best-practices/rules/test-data.md": {
+    "mtime": 1789523894.0451696,
+    "ast_hash": "edea9b226693e250cbc97f3e09ea455d",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1789527127.4113595,
+    "ast_hash": "b65b43ad585c33db05097aa39794f7d5",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1789523893.999783,
+    "ast_hash": "6a02ff5c28f2b49ca4b3daaf8e1d1f91",
+    "semantic_hash": ""
+  },
+  "PRD.md": {
+    "mtime": 1789451342.2722545,
+    "ast_hash": "1b50166b2966a3b82aef97412e63b104",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1787675219.0,
+    "ast_hash": "d2661a31fed7f254f5b7d3b6fe19330a",
+    "semantic_hash": ""
+  },
+  "Rest-API.md": {
+    "mtime": 1789533448.2353108,
+    "ast_hash": "3d93d53dca51da15b0ea508bf6b07fdd",
+    "semantic_hash": ""
+  },
+  "mobile-app/AGENTS.md": {
+    "mtime": 1789614264.437138,
+    "ast_hash": "963888ec05f17b13375386f058dd621e",
+    "semantic_hash": ""
+  },
+  "mobile-app/CLAUDE.md": {
+    "mtime": 1789614264.437232,
+    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
+    "semantic_hash": ""
+  },
+  "mobile-app/PRD-MOBILE.md": {
+    "mtime": 1789614025.5547857,
+    "ast_hash": "b07e44dd6f6290ed58606358944b98e6",
+    "semantic_hash": ""
+  },
+  "public/robots.txt": {
+    "mtime": 1787675219.0,
+    "ast_hash": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "semantic_hash": ""
+  },
+  "mobile-app/assets/android-icon-background.png": {
+    "mtime": 1789614151.2667873,
+    "ast_hash": "2d65569cc0e2afdcea0af9f9902d4173",
+    "semantic_hash": ""
+  },
+  "mobile-app/assets/android-icon-foreground.png": {
+    "mtime": 1789614151.267569,
+    "ast_hash": "72e71a9c846c6aa4ae32476641a00e18",
+    "semantic_hash": ""
+  },
+  "mobile-app/assets/android-icon-monochrome.png": {
+    "mtime": 1789614151.26787,
+    "ast_hash": "1e097dab989759fc0b69440092ca22cd",
+    "semantic_hash": ""
+  },
+  "mobile-app/assets/favicon.png": {
+    "mtime": 1789614151.2680752,
+    "ast_hash": "d9f444efbdfbe7931aa93beada07318a",
+    "semantic_hash": ""
+  },
+  "mobile-app/assets/icon.png": {
+    "mtime": 1789614151.2696946,
+    "ast_hash": "cb975bba2216ce10a60e6c0ffe9941a2",
+    "semantic_hash": ""
+  },
+  "mobile-app/assets/splash-icon.png": {
+    "mtime": 1789614151.2714806,
+    "ast_hash": "97dae5a0e62ad8551d8a31897b425e63",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/01_LoginScreen.png": {
+    "mtime": 1789618327.4455693,
+    "ast_hash": "221f8dea4716e22f4c0991945390e689",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/02_ServerConfigScreen.png": {
+    "mtime": 1789618329.0105357,
+    "ast_hash": "221f8dea4716e22f4c0991945390e689",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/02b_ServerConfigSuccess.png": {
+    "mtime": 1789618331.5737665,
+    "ast_hash": "221f8dea4716e22f4c0991945390e689",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/03_DashboardScreen.png": {
+    "mtime": 1789618337.159353,
+    "ast_hash": "83bc6f92a5b14cf90807d8a474ea5517",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/04_TiketListScreen.png": {
+    "mtime": 1789618339.3167517,
+    "ast_hash": "c8d4fc9f977789719ce8326b21393a52",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/05_TiketIntakeScreen.png": {
+    "mtime": 1789618341.4248197,
+    "ast_hash": "74af2be391982d8181a3537b2a1f32af",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/06_TiketDetailScreen.png": {
+    "mtime": 1789618343.5297918,
+    "ast_hash": "8c0b3446e38ec07194fd01b5a790af9c",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/07_StatusUpdateModal.png": {
+    "mtime": 1789618345.1094096,
+    "ast_hash": "8c0b3446e38ec07194fd01b5a790af9c",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/08_InvoiceListScreen.png": {
+    "mtime": 1789618348.2158344,
+    "ast_hash": "2471b7d533541e3e6535fe0ac3bd2a99",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/09_InvoiceCreateScreen.png": {
+    "mtime": 1789618350.2975464,
+    "ast_hash": "3b67ccae400f62bafc5d5c0c3cb024be",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/10_InvoiceDetailScreen.png": {
+    "mtime": 1789618352.3918724,
+    "ast_hash": "81f17aeefc8b27d2ba2358012f4c7040",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/11_PembayaranModal.png": {
+    "mtime": 1789618353.9266357,
+    "ast_hash": "81f17aeefc8b27d2ba2358012f4c7040",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/12_PengeluaranScreen.png": {
+    "mtime": 1789618357.0082188,
+    "ast_hash": "05e8d51296da1721b39cb1029bf8013a",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/13_PengeluaranModal.png": {
+    "mtime": 1789618358.5608437,
+    "ast_hash": "05e8d51296da1721b39cb1029bf8013a",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/14_MasterPelangganScreen.png": {
+    "mtime": 1789618361.6648245,
+    "ast_hash": "1d3bed10dcd079a7aadcfd8ea2a85dd2",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/15_PelangganDetailScreen.png": {
+    "mtime": 1789618363.7475922,
+    "ast_hash": "fae2e80bb1dc55d3a6c07817d56777c4",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/16_MasterProdukScreen.png": {
+    "mtime": 1789618367.8119032,
+    "ast_hash": "fae2e80bb1dc55d3a6c07817d56777c4",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/17_AkunScreen.png": {
+    "mtime": 1789618369.8921432,
+    "ast_hash": "fa1083fe219ed7e4210c628d1d283066",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/18_EditProfilModal.png": {
+    "mtime": 1789618371.4681249,
+    "ast_hash": "fa1083fe219ed7e4210c628d1d283066",
+    "semantic_hash": ""
+  },
+  "mobile-app/screenshots/19_GantiPasswordModal.png": {
+    "mtime": 1789618374.0060375,
+    "ast_hash": "40a4665b6c3f45ce8b89f6a07dc75f41",
+    "semantic_hash": ""
+  },
+  "screenshots/01-beranda.png": {
+    "mtime": 1789617406.217096,
+    "ast_hash": "9b4993dbc78a7ccbcfb1f8a20cbf7f15",
+    "semantic_hash": ""
+  },
+  "screenshots/02-servis.png": {
+    "mtime": 1789617438.083066,
+    "ast_hash": "b212e5b9b00c5f2a43e7905ce7f9ad48",
+    "semantic_hash": ""
+  },
+  "screenshots/03-kasir.png": {
+    "mtime": 1789617451.6498072,
+    "ast_hash": "3c19d4a6aaae033f5c95e4a37cf03816",
+    "semantic_hash": ""
+  },
+  "screenshots/04-master.png": {
+    "mtime": 1789617467.6836143,
+    "ast_hash": "bba7d5b29d3a7d43dca02693f6054472",
+    "semantic_hash": ""
+  },
+  "screenshots/05-akun.png": {
+    "mtime": 1789617482.8164494,
+    "ast_hash": "295bd6a428b8bb8f028541084c994390",
+    "semantic_hash": ""
+  },
+  "screenshots/06-detail-tiket.png": {
+    "mtime": 1789617518.4514327,
+    "ast_hash": "da46b2fc3080412c47a417eb200ec892",
+    "semantic_hash": ""
+  },
+  "screenshots/07-detail-invoice.png": {
+    "mtime": 1789617542.7511237,
+    "ast_hash": "03b7fc474429c36cb97416347c017721",
+    "semantic_hash": ""
+  },
+  "screenshots/08-servis-baru.png": {
+    "mtime": 1789617590.002835,
+    "ast_hash": "99ac632fdb157971959f6411f63ff20c",
+    "semantic_hash": ""
+  },
+  "screenshots/09-buat-invoice.png": {
+    "mtime": 1789617635.9527845,
+    "ast_hash": "17565437be2f5441910a7bd478134371",
+    "semantic_hash": ""
+  },
+  "screenshots/10-scan-tiket.png": {
+    "mtime": 1789617729.4054112,
+    "ast_hash": "a15f78e2dae9a3e0ecc4ee98bbbf1404",
+    "semantic_hash": ""
+  },
+  "screenshots/11-ubah-profil.png": {
+    "mtime": 1789617784.4233072,
+    "ast_hash": "8e012b6a33b476d13a9d003ce18d37aa",
+    "semantic_hash": ""
   }
 }
